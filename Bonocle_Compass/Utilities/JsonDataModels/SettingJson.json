@@ -1,0 +1,20 @@
+    [
+     {
+         "cellType" : "Audio",
+         "opened" : false,
+        "title": "Audio",
+        "sectionData": []
+     },
+     {
+         "cellType" : "Vibration",
+         "opened" : false,
+        "title": "Vibration",
+        "sectionData": []
+     },
+     {
+         "cellType" : "Tutorial",
+         "opened" : false,
+        "title": "Tutorial",
+        "sectionData": []
+     }
+    ]

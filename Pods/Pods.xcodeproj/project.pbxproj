@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06C01F386212F5C6A0790D335AA5459A /* Pods-Bonocle_Compass-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF7DDB457BC7B915CE94CCC62FF191B /* Pods-Bonocle_Compass-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09D8C0D0788468D8C3C7FFB6DEC2AD28 /* UIViewController+EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDD4D477CD1B6F78765D009EF867F18 /* UIViewController+EXT.swift */; };
+		1271D4530B06DA206EE4D6436FFB64B0 /* HapticMotors+Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D774EAB5942C4E0D598388544A560F /* HapticMotors+Events.swift */; };
+		13D08C6451DE28F5A713AA2423B96A04 /* BonocleCommunicationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F54FBFEC27B82D7424D04ED6348209 /* BonocleCommunicationHelper.swift */; };
+		177F699357AAB42880FB36512352D35C /* String+EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B2688BF1BCAEE003A7504E6C261069 /* String+EXT.swift */; };
+		3F02BA93E6B5D3180B23D898BFF74F70 /* HapticPatterns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749715FB42439C8BB35893FFC7030C3E /* HapticPatterns.swift */; };
+		41ABF925CD2133EED715D8C3B764008E /* Optical+Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C66D0A56900D3E94DB6F1A140167DFD /* Optical+Events.swift */; };
+		47DFFB8298506267B0D72C5D09C421B1 /* BonocleKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F23EB3B30F4E9ABED89B6C2D48839E0E /* BonocleKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BEF24656382035D10F42C818AD3D4AB /* IMU+Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A86B06BB990E0A09C9641F5E5174A53 /* IMU+Events.swift */; };
+		68A1370DF288971684F2F337D4B4E2BA /* Buttons+Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD53C5E3292C8C39E8973DD029C3FE2 /* Buttons+Events.swift */; };
+		953D0059E07218DCC7D53BA4CB08FEC6 /* BonocleKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 522D6B7C84DACBFFB9D0F1943026C3DE /* BonocleKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99E12B312739B9838AE389977A6BC0AF /* BonocleServicesUUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD199DED48F17300C1E5337D6013E003 /* BonocleServicesUUID.swift */; };
+		A23A1ED5ED5F7056F09A8C2BFE903FFC /* Data+EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B288EB4F1000AD39C78E022C796B867 /* Data+EXT.swift */; };
+		A9731C19E67E1376BC8F9B039D2D21EA /* BonocleDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 856C5FF60595B15F22CAF023707A7B24 /* BonocleDelegate.swift */; };
+		AF6ED769AF5B603C6D7F8B7B53B30D90 /* BonocleButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3012CB80F2BA6DBD374C0D650192FB8B /* BonocleButtons.swift */; };
+		BADD9A4A200383A713519949CC646781 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BDBF3BE8B02467496935B983CD5B5E89 /* CoreBluetooth+EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D51AB9CA7CB36D9AFB465E4467574F3 /* CoreBluetooth+EXT.swift */; };
+		BF5924F92A1F1146DE0EB865BC3F79E2 /* Pods-Bonocle_Compass-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E431A823B0E1129C359B37286425C57 /* Pods-Bonocle_Compass-dummy.m */; };
+		D950E1E754F40ECC020CE30083783F38 /* ConversionToInt+EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7192776411CA3ACCD421AB8A2E1048 /* ConversionToInt+EXT.swift */; };
+		E2ED00D105EEF8353F7937A843DBBD8B /* BraillePatterns.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B479DC0AFF39FE83662CE667B10FA18 /* BraillePatterns.swift */; };
+		ED9D3DD44AD281A066A12E26C0136AA1 /* BonocleKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CA4C06EC10A351E2414E39D2D6776E /* BonocleKit-dummy.m */; };
+		F2260EB5441CCA353809DB3F257BBAD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FA4DE941E9E039606A049A9CB4AD4198 /* BrailleMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B98F692C9A50F051CAAD555E60F549B /* BrailleMapper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DBD4984BE169759D2FFEE3376C9CC8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D0D8266528A460CA0DEA095F1705D62;
+			remoteInfo = BonocleKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03017DF40AB1B9C03CF70838912C6B05 /* Pods-Bonocle_Compass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bonocle_Compass.release.xcconfig"; sourceTree = "<group>"; };
+		0B479DC0AFF39FE83662CE667B10FA18 /* BraillePatterns.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BraillePatterns.swift; path = "BonocleKit/Bonocle+Patterns/BraillePatterns.swift"; sourceTree = "<group>"; };
+		0B98F692C9A50F051CAAD555E60F549B /* BrailleMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BrailleMapper.swift; path = "BonocleKit/BonocleKit+Helper/BrailleMapper.swift"; sourceTree = "<group>"; };
+		0E431A823B0E1129C359B37286425C57 /* Pods-Bonocle_Compass-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Bonocle_Compass-dummy.m"; sourceTree = "<group>"; };
+		10235EFD1C3B1B0BC875CA70C1E08ABC /* Pods-Bonocle_Compass-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Bonocle_Compass-frameworks.sh"; sourceTree = "<group>"; };
+		265CB558D74919EBD806C5EC9121ACBD /* Pods-Bonocle_Compass.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Bonocle_Compass.modulemap"; sourceTree = "<group>"; };
+		3012CB80F2BA6DBD374C0D650192FB8B /* BonocleButtons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BonocleButtons.swift; path = "BonocleKit/Bonocle+Events/BonocleButtons.swift"; sourceTree = "<group>"; };
+		328032131D9E6BD6CEFFA5746A8E4EA8 /* BonocleKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BonocleKit.modulemap; sourceTree = "<group>"; };
+		3C66D0A56900D3E94DB6F1A140167DFD /* Optical+Events.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Optical+Events.swift"; path = "BonocleKit/Bonocle+Events/Optical+Events.swift"; sourceTree = "<group>"; };
+		3CD53C5E3292C8C39E8973DD029C3FE2 /* Buttons+Events.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Buttons+Events.swift"; path = "BonocleKit/Bonocle+Events/Buttons+Events.swift"; sourceTree = "<group>"; };
+		4836945DA98F566700B2047E7A781006 /* Pods-Bonocle_Compass-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Bonocle_Compass-Info.plist"; sourceTree = "<group>"; };
+		522D6B7C84DACBFFB9D0F1943026C3DE /* BonocleKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BonocleKit-umbrella.h"; sourceTree = "<group>"; };
+		5FDD4D477CD1B6F78765D009EF867F18 /* UIViewController+EXT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+EXT.swift"; path = "BonocleKit/Bonocle+Extensions/UIViewController+EXT.swift"; sourceTree = "<group>"; };
+		652544469F996753590874FECAD9382E /* Pods_Bonocle_Compass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Bonocle_Compass.framework; path = "Pods-Bonocle_Compass.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72D774EAB5942C4E0D598388544A560F /* HapticMotors+Events.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HapticMotors+Events.swift"; path = "BonocleKit/Bonocle+Events/HapticMotors+Events.swift"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		749715FB42439C8BB35893FFC7030C3E /* HapticPatterns.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HapticPatterns.swift; path = "BonocleKit/Bonocle+Patterns/HapticPatterns.swift"; sourceTree = "<group>"; };
+		7D51AB9CA7CB36D9AFB465E4467574F3 /* CoreBluetooth+EXT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CoreBluetooth+EXT.swift"; path = "BonocleKit/Bonocle+Extensions/CoreBluetooth+EXT.swift"; sourceTree = "<group>"; };
+		856C5FF60595B15F22CAF023707A7B24 /* BonocleDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BonocleDelegate.swift; path = "BonocleKit/BonocleKit+Helper/BonocleDelegate.swift"; sourceTree = "<group>"; };
+		8A86B06BB990E0A09C9641F5E5174A53 /* IMU+Events.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IMU+Events.swift"; path = "BonocleKit/Bonocle+Events/IMU+Events.swift"; sourceTree = "<group>"; };
+		8B288EB4F1000AD39C78E022C796B867 /* Data+EXT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+EXT.swift"; path = "BonocleKit/Bonocle+Extensions/Data+EXT.swift"; sourceTree = "<group>"; };
+		8E2C9947E467A3153CD3FD816B25E584 /* BonocleKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BonocleKit.framework; path = BonocleKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97D2969FE8E705999597A79C1A6DFE30 /* BonocleKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BonocleKit-Info.plist"; sourceTree = "<group>"; };
+		9BDCAEDD45B104D17F9DFF6D664174E2 /* Pods-Bonocle_Compass-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Bonocle_Compass-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F341C31776384E49C077BD839640F7A /* BonocleKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BonocleKit.release.xcconfig; sourceTree = "<group>"; };
+		AA7192776411CA3ACCD421AB8A2E1048 /* ConversionToInt+EXT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConversionToInt+EXT.swift"; path = "BonocleKit/Bonocle+Extensions/ConversionToInt+EXT.swift"; sourceTree = "<group>"; };
+		AD199DED48F17300C1E5337D6013E003 /* BonocleServicesUUID.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BonocleServicesUUID.swift; path = "BonocleKit/BonocleKit+Helper/BonocleServicesUUID.swift"; sourceTree = "<group>"; };
+		C6A2AE1709849DE3B3E85F0E01C0B815 /* Pods-Bonocle_Compass-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Bonocle_Compass-acknowledgements.plist"; sourceTree = "<group>"; };
+		C6B2688BF1BCAEE003A7504E6C261069 /* String+EXT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+EXT.swift"; path = "BonocleKit/Bonocle+Extensions/String+EXT.swift"; sourceTree = "<group>"; };
+		C77A455BB580A1FA73239E13CB0EB27B /* BonocleKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BonocleKit-prefix.pch"; sourceTree = "<group>"; };
+		CDF7DDB457BC7B915CE94CCC62FF191B /* Pods-Bonocle_Compass-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Bonocle_Compass-umbrella.h"; sourceTree = "<group>"; };
+		D7C2565100A00C14AA38F7BF2EFD5D3A /* Pods-Bonocle_Compass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bonocle_Compass.debug.xcconfig"; sourceTree = "<group>"; };
+		D94F321684382228B7C23FE32D778E0C /* BonocleKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BonocleKit.debug.xcconfig; sourceTree = "<group>"; };
+		E9F54FBFEC27B82D7424D04ED6348209 /* BonocleCommunicationHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BonocleCommunicationHelper.swift; path = "BonocleKit/BonocleKit+Helper/BonocleCommunicationHelper.swift"; sourceTree = "<group>"; };
+		F23EB3B30F4E9ABED89B6C2D48839E0E /* BonocleKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BonocleKit.h; path = "BonocleKit/Support Files/BonocleKit.h"; sourceTree = "<group>"; };
+		F8CA4C06EC10A351E2414E39D2D6776E /* BonocleKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BonocleKit-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA8A7FF9ACDAF3D4A52EB13EA127EBC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BADD9A4A200383A713519949CC646781 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C65A861BEDA91096FA139C8342E5B513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2260EB5441CCA353809DB3F257BBAD8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1259B37AD29A772C6D01A6DDC200B43B /* BonocleKit */ = {
+			isa = PBXGroup;
+			children = (
+				3012CB80F2BA6DBD374C0D650192FB8B /* BonocleButtons.swift */,
+				E9F54FBFEC27B82D7424D04ED6348209 /* BonocleCommunicationHelper.swift */,
+				856C5FF60595B15F22CAF023707A7B24 /* BonocleDelegate.swift */,
+				F23EB3B30F4E9ABED89B6C2D48839E0E /* BonocleKit.h */,
+				AD199DED48F17300C1E5337D6013E003 /* BonocleServicesUUID.swift */,
+				0B98F692C9A50F051CAAD555E60F549B /* BrailleMapper.swift */,
+				0B479DC0AFF39FE83662CE667B10FA18 /* BraillePatterns.swift */,
+				3CD53C5E3292C8C39E8973DD029C3FE2 /* Buttons+Events.swift */,
+				AA7192776411CA3ACCD421AB8A2E1048 /* ConversionToInt+EXT.swift */,
+				7D51AB9CA7CB36D9AFB465E4467574F3 /* CoreBluetooth+EXT.swift */,
+				8B288EB4F1000AD39C78E022C796B867 /* Data+EXT.swift */,
+				72D774EAB5942C4E0D598388544A560F /* HapticMotors+Events.swift */,
+				749715FB42439C8BB35893FFC7030C3E /* HapticPatterns.swift */,
+				8A86B06BB990E0A09C9641F5E5174A53 /* IMU+Events.swift */,
+				3C66D0A56900D3E94DB6F1A140167DFD /* Optical+Events.swift */,
+				C6B2688BF1BCAEE003A7504E6C261069 /* String+EXT.swift */,
+				5FDD4D477CD1B6F78765D009EF867F18 /* UIViewController+EXT.swift */,
+				43FE8D5E2A194B979F0F3B923048D58B /* Support Files */,
+			);
+			name = BonocleKit;
+			path = BonocleKit;
+			sourceTree = "<group>";
+		};
+		419F45B7FABAECAF078808A90AD3A486 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E2C9947E467A3153CD3FD816B25E584 /* BonocleKit.framework */,
+				652544469F996753590874FECAD9382E /* Pods_Bonocle_Compass.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43FE8D5E2A194B979F0F3B923048D58B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				328032131D9E6BD6CEFFA5746A8E4EA8 /* BonocleKit.modulemap */,
+				F8CA4C06EC10A351E2414E39D2D6776E /* BonocleKit-dummy.m */,
+				97D2969FE8E705999597A79C1A6DFE30 /* BonocleKit-Info.plist */,
+				C77A455BB580A1FA73239E13CB0EB27B /* BonocleKit-prefix.pch */,
+				522D6B7C84DACBFFB9D0F1943026C3DE /* BonocleKit-umbrella.h */,
+				D94F321684382228B7C23FE32D778E0C /* BonocleKit.debug.xcconfig */,
+				9F341C31776384E49C077BD839640F7A /* BonocleKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BonocleKit";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		76D30AA8B89B2F4BCBA94E29DB8ED211 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1259B37AD29A772C6D01A6DDC200B43B /* BonocleKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				76D30AA8B89B2F4BCBA94E29DB8ED211 /* Pods */,
+				419F45B7FABAECAF078808A90AD3A486 /* Products */,
+				DA8F1186154F8EE77C46D5E83CD33491 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA8F1186154F8EE77C46D5E83CD33491 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4F0C2BFCA143B92EADC1126A34385C1 /* Pods-Bonocle_Compass */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F4F0C2BFCA143B92EADC1126A34385C1 /* Pods-Bonocle_Compass */ = {
+			isa = PBXGroup;
+			children = (
+				265CB558D74919EBD806C5EC9121ACBD /* Pods-Bonocle_Compass.modulemap */,
+				9BDCAEDD45B104D17F9DFF6D664174E2 /* Pods-Bonocle_Compass-acknowledgements.markdown */,
+				C6A2AE1709849DE3B3E85F0E01C0B815 /* Pods-Bonocle_Compass-acknowledgements.plist */,
+				0E431A823B0E1129C359B37286425C57 /* Pods-Bonocle_Compass-dummy.m */,
+				10235EFD1C3B1B0BC875CA70C1E08ABC /* Pods-Bonocle_Compass-frameworks.sh */,
+				4836945DA98F566700B2047E7A781006 /* Pods-Bonocle_Compass-Info.plist */,
+				CDF7DDB457BC7B915CE94CCC62FF191B /* Pods-Bonocle_Compass-umbrella.h */,
+				D7C2565100A00C14AA38F7BF2EFD5D3A /* Pods-Bonocle_Compass.debug.xcconfig */,
+				03017DF40AB1B9C03CF70838912C6B05 /* Pods-Bonocle_Compass.release.xcconfig */,
+			);
+			name = "Pods-Bonocle_Compass";
+			path = "Target Support Files/Pods-Bonocle_Compass";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		745B0757DFEF7E6397C933584C5D1749 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				953D0059E07218DCC7D53BA4CB08FEC6 /* BonocleKit-umbrella.h in Headers */,
+				47DFFB8298506267B0D72C5D09C421B1 /* BonocleKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4173C217F925C6BB880CA492E7E3A6D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06C01F386212F5C6A0790D335AA5459A /* Pods-Bonocle_Compass-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5D0D8266528A460CA0DEA095F1705D62 /* BonocleKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67BF3E5A8E163D46764C3FD640102409 /* Build configuration list for PBXNativeTarget "BonocleKit" */;
+			buildPhases = (
+				745B0757DFEF7E6397C933584C5D1749 /* Headers */,
+				1CAD43C98965E94AEDCBB9341EA5ED9F /* Sources */,
+				C65A861BEDA91096FA139C8342E5B513 /* Frameworks */,
+				5ABDE639E6B55C7A255E229F845D4516 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BonocleKit;
+			productName = BonocleKit;
+			productReference = 8E2C9947E467A3153CD3FD816B25E584 /* BonocleKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7971ED2E2A84C9509298B81925461614 /* Pods-Bonocle_Compass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90011B5CB3B0163C7C2377B820C9B1F9 /* Build configuration list for PBXNativeTarget "Pods-Bonocle_Compass" */;
+			buildPhases = (
+				B4173C217F925C6BB880CA492E7E3A6D /* Headers */,
+				A56D9B0C3B536C87731412773F42B973 /* Sources */,
+				BA8A7FF9ACDAF3D4A52EB13EA127EBC6 /* Frameworks */,
+				2F8A5BE9FF1BED0B600114094363200E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EDDC19C8CC3777D5BA609955D5534ED /* PBXTargetDependency */,
+			);
+			name = "Pods-Bonocle_Compass";
+			productName = "Pods-Bonocle_Compass";
+			productReference = 652544469F996753590874FECAD9382E /* Pods_Bonocle_Compass.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 419F45B7FABAECAF078808A90AD3A486 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D0D8266528A460CA0DEA095F1705D62 /* BonocleKit */,
+				7971ED2E2A84C9509298B81925461614 /* Pods-Bonocle_Compass */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F8A5BE9FF1BED0B600114094363200E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ABDE639E6B55C7A255E229F845D4516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CAD43C98965E94AEDCBB9341EA5ED9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF6ED769AF5B603C6D7F8B7B53B30D90 /* BonocleButtons.swift in Sources */,
+				13D08C6451DE28F5A713AA2423B96A04 /* BonocleCommunicationHelper.swift in Sources */,
+				A9731C19E67E1376BC8F9B039D2D21EA /* BonocleDelegate.swift in Sources */,
+				ED9D3DD44AD281A066A12E26C0136AA1 /* BonocleKit-dummy.m in Sources */,
+				99E12B312739B9838AE389977A6BC0AF /* BonocleServicesUUID.swift in Sources */,
+				FA4DE941E9E039606A049A9CB4AD4198 /* BrailleMapper.swift in Sources */,
+				E2ED00D105EEF8353F7937A843DBBD8B /* BraillePatterns.swift in Sources */,
+				68A1370DF288971684F2F337D4B4E2BA /* Buttons+Events.swift in Sources */,
+				D950E1E754F40ECC020CE30083783F38 /* ConversionToInt+EXT.swift in Sources */,
+				BDBF3BE8B02467496935B983CD5B5E89 /* CoreBluetooth+EXT.swift in Sources */,
+				A23A1ED5ED5F7056F09A8C2BFE903FFC /* Data+EXT.swift in Sources */,
+				1271D4530B06DA206EE4D6436FFB64B0 /* HapticMotors+Events.swift in Sources */,
+				3F02BA93E6B5D3180B23D898BFF74F70 /* HapticPatterns.swift in Sources */,
+				5BEF24656382035D10F42C818AD3D4AB /* IMU+Events.swift in Sources */,
+				41ABF925CD2133EED715D8C3B764008E /* Optical+Events.swift in Sources */,
+				177F699357AAB42880FB36512352D35C /* String+EXT.swift in Sources */,
+				09D8C0D0788468D8C3C7FFB6DEC2AD28 /* UIViewController+EXT.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A56D9B0C3B536C87731412773F42B973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5924F92A1F1146DE0EB865BC3F79E2 /* Pods-Bonocle_Compass-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EDDC19C8CC3777D5BA609955D5534ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BonocleKit;
+			target = 5D0D8266528A460CA0DEA095F1705D62 /* BonocleKit */;
+			targetProxy = 9DBD4984BE169759D2FFEE3376C9CC8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4C30D61D4A46AF4D9C4CC2A6B130AFC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F341C31776384E49C077BD839640F7A /* BonocleKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BonocleKit/BonocleKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BonocleKit/BonocleKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BonocleKit/BonocleKit.modulemap";
+				PRODUCT_MODULE_NAME = BonocleKit;
+				PRODUCT_NAME = BonocleKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5FF0B2BFA951235C5D96C92EBBA25798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03017DF40AB1B9C03CF70838912C6B05 /* Pods-Bonocle_Compass.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Bonocle_Compass/Pods-Bonocle_Compass-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Bonocle_Compass/Pods-Bonocle_Compass.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A6B289C4B05C4E8C89C4A89906C7B0E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D94F321684382228B7C23FE32D778E0C /* BonocleKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BonocleKit/BonocleKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BonocleKit/BonocleKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BonocleKit/BonocleKit.modulemap";
+				PRODUCT_MODULE_NAME = BonocleKit;
+				PRODUCT_NAME = BonocleKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E034EE34221B7C4F7393B8FF446CC54F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7C2565100A00C14AA38F7BF2EFD5D3A /* Pods-Bonocle_Compass.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Bonocle_Compass/Pods-Bonocle_Compass-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Bonocle_Compass/Pods-Bonocle_Compass.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67BF3E5A8E163D46764C3FD640102409 /* Build configuration list for PBXNativeTarget "BonocleKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B289C4B05C4E8C89C4A89906C7B0E4 /* Debug */,
+				4C30D61D4A46AF4D9C4CC2A6B130AFC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90011B5CB3B0163C7C2377B820C9B1F9 /* Build configuration list for PBXNativeTarget "Pods-Bonocle_Compass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E034EE34221B7C4F7393B8FF446CC54F /* Debug */,
+				5FF0B2BFA951235C5D96C92EBBA25798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

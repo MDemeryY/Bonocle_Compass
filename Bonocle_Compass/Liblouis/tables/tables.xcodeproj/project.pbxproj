@@ -1,0 +1,866 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		E6A963F52319C51E005B8F58 /* as.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = as.tbl; sourceTree = "<group>"; };
+		E6A963F62319C51E005B8F58 /* bh.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = bh.tbl; sourceTree = "<group>"; };
+		E6A963F72319C51E005B8F58 /* litdigits6Dots.uti */ = {isa = PBXFileReference; lastKnownFileType = text; path = litdigits6Dots.uti; sourceTree = "<group>"; };
+		E6A963F82319C51E005B8F58 /* lt.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = lt.tbl; sourceTree = "<group>"; };
+		E6A963F92319C51E005B8F58 /* da-dk-g28.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "da-dk-g28.ctb"; sourceTree = "<group>"; };
+		E6A963FA2319C51E005B8F58 /* de-g0.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "de-g0.utb"; sourceTree = "<group>"; };
+		E6A963FB2319C51E005B8F58 /* te.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = te.tbl; sourceTree = "<group>"; };
+		E6A963FC2319C51E005B8F58 /* tr.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = tr.tbl; sourceTree = "<group>"; };
+		E6A963FD2319C51E005B8F58 /* ur-pk-g1.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ur-pk-g1.utb"; sourceTree = "<group>"; };
+		E6A963FE2319C51E005B8F58 /* hyph_brl_da_dk.dic */ = {isa = PBXFileReference; lastKnownFileType = text; path = hyph_brl_da_dk.dic; sourceTree = "<group>"; };
+		E6A963FF2319C51E005B8F58 /* dra.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = dra.ctb; sourceTree = "<group>"; };
+		E6A964002319C51E005B8F58 /* he.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = he.ctb; sourceTree = "<group>"; };
+		E6A964012319C51E005B8F58 /* en-gb-comp8.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "en-gb-comp8.ctb"; sourceTree = "<group>"; };
+		E6A964022319C51E005B8F58 /* fi-fi-8dot.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "fi-fi-8dot.ctb"; sourceTree = "<group>"; };
+		E6A964032319C51E005B8F58 /* en-us-mathtext.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "en-us-mathtext.ctb"; sourceTree = "<group>"; };
+		E6A964042319C51E005B8F58 /* mwr.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = mwr.ctb; sourceTree = "<group>"; };
+		E6A964052319C51E005B8F58 /* loweredDigits6Dots.uti */ = {isa = PBXFileReference; lastKnownFileType = text; path = loweredDigits6Dots.uti; sourceTree = "<group>"; };
+		E6A964062319C51E005B8F58 /* spaces.uti */ = {isa = PBXFileReference; lastKnownFileType = text; path = spaces.uti; sourceTree = "<group>"; };
+		E6A964072319C51E005B8F58 /* et.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = et.ctb; sourceTree = "<group>"; };
+		E6A964082319C51E005B8F58 /* cs-translation.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "cs-translation.cti"; sourceTree = "<group>"; };
+		E6A964092319C51E005B8F58 /* de-accents-detailed.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "de-accents-detailed.cti"; sourceTree = "<group>"; };
+		E6A9640A2319C51E005B8F58 /* tamil.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = tamil.cti; sourceTree = "<group>"; };
+		E6A9640B2319C51E005B8F58 /* sk-chardefs.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "sk-chardefs.cti"; sourceTree = "<group>"; };
+		E6A9640C2319C51E005B8F58 /* ar.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = ar.tbl; sourceTree = "<group>"; };
+		E6A9640D2319C51E005B8F58 /* es-old.dis */ = {isa = PBXFileReference; lastKnownFileType = text; path = "es-old.dis"; sourceTree = "<group>"; };
+		E6A9640E2319C51E005B8F58 /* eurodefs.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = eurodefs.cti; sourceTree = "<group>"; };
+		E6A9640F2319C51E005B8F58 /* en-us-comp8.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "en-us-comp8.ctb"; sourceTree = "<group>"; };
+		E6A964102319C51E005B8F58 /* gujarati.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = gujarati.cti; sourceTree = "<group>"; };
+		E6A964112319C51E005B8F58 /* haw-us-g1.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "haw-us-g1.ctb"; sourceTree = "<group>"; };
+		E6A964122319C51E005B8F58 /* si-in-g1.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "si-in-g1.utb"; sourceTree = "<group>"; };
+		E6A964132319C51E005B8F58 /* digits8Dots.uti */ = {isa = PBXFileReference; lastKnownFileType = text; path = digits8Dots.uti; sourceTree = "<group>"; };
+		E6A964142319C51E005B8F58 /* ga-g2.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ga-g2.ctb"; sourceTree = "<group>"; };
+		E6A964152319C51E005B8F58 /* de-eurobrl6.dis */ = {isa = PBXFileReference; lastKnownFileType = text; path = "de-eurobrl6.dis"; sourceTree = "<group>"; };
+		E6A964162319C51E005B8F58 /* be-in-g1.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "be-in-g1.utb"; sourceTree = "<group>"; };
+		E6A964172319C51E005B8F58 /* text_nabcc.dis */ = {isa = PBXFileReference; lastKnownFileType = text; path = text_nabcc.dis; sourceTree = "<group>"; };
+		E6A964182319C51E005B8F58 /* da-lt.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "da-lt.ctb"; sourceTree = "<group>"; };
+		E6A964192319C51E005B8F58 /* compress.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = compress.cti; sourceTree = "<group>"; };
+		E6A9641A2319C51E005B8F58 /* se-se.dis */ = {isa = PBXFileReference; lastKnownFileType = text; path = "se-se.dis"; sourceTree = "<group>"; };
+		E6A9641B2319C51E005B8F58 /* ar-ar-g2.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ar-ar-g2.ctb"; sourceTree = "<group>"; };
+		E6A9641C2319C51E005B8F58 /* hr-comp8.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "hr-comp8.utb"; sourceTree = "<group>"; };
+		E6A9641D2319C51E005B8F58 /* da-dk-6miscChars.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "da-dk-6miscChars.cti"; sourceTree = "<group>"; };
+		E6A9641E2319C51E005B8F58 /* kru.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = kru.tbl; sourceTree = "<group>"; };
+		E6A9641F2319C51E005B8F58 /* ru-unicode.dis */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ru-unicode.dis"; sourceTree = "<group>"; };
+		E6A964202319C51E005B8F58 /* mun.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = mun.ctb; sourceTree = "<group>"; };
+		E6A964212319C51E005B8F58 /* de-g2-core.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "de-g2-core.cti"; sourceTree = "<group>"; };
+		E6A964222319C51E005B8F58 /* en_US-comp8-ext.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = "en_US-comp8-ext.tbl"; sourceTree = "<group>"; };
+		E6A964232319C51E005B8F58 /* da-dk-g16.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "da-dk-g16.ctb"; sourceTree = "<group>"; };
+		E6A964242319C51E005B8F58 /* en-us-interline.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "en-us-interline.ctb"; sourceTree = "<group>"; };
+		E6A964252319C51E005B8F58 /* lv.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = lv.tbl; sourceTree = "<group>"; };
+		E6A964262319C51E005B8F58 /* mr.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = mr.tbl; sourceTree = "<group>"; };
+		E6A964272319C51E005B8F58 /* cy.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = cy.tbl; sourceTree = "<group>"; };
+		E6A964282319C51E005B8F58 /* fi.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = fi.utb; sourceTree = "<group>"; };
+		E6A964292319C51E005B8F58 /* bn.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = bn.tbl; sourceTree = "<group>"; };
+		E6A9642A2319C51E005B8F58 /* oriya.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = oriya.cti; sourceTree = "<group>"; };
+		E6A9642B2319C51E005B8F58 /* ru-ru-g1.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ru-ru-g1.utb"; sourceTree = "<group>"; };
+		E6A9642C2319C51E005B8F58 /* ta-ta-g1.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ta-ta-g1.ctb"; sourceTree = "<group>"; };
+		E6A9642D2319C51E005B8F58 /* hu-hu-g2.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "hu-hu-g2.ctb"; sourceTree = "<group>"; };
+		E6A9642E2319C51E005B8F58 /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; path = .DS_Store; sourceTree = "<group>"; };
+		E6A9642F2319C51E005B8F58 /* es-g2.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "es-g2.ctb"; sourceTree = "<group>"; };
+		E6A964302319C51E005B8F58 /* da-dk-g26l-lit.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "da-dk-g26l-lit.ctb"; sourceTree = "<group>"; };
+		E6A964312319C51E005B8F58 /* ur-pk-g2.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ur-pk-g2.ctb"; sourceTree = "<group>"; };
+		E6A964322319C51E005B8F58 /* ru-compbrl.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ru-compbrl.ctb"; sourceTree = "<group>"; };
+		E6A964332319C51E005B8F58 /* litdigits6DotsPlusDot6.uti */ = {isa = PBXFileReference; lastKnownFileType = text; path = litdigits6DotsPlusDot6.uti; sourceTree = "<group>"; };
+		E6A964342319C51E005B8F58 /* ukmaths_unicode_defs.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = ukmaths_unicode_defs.cti; sourceTree = "<group>"; };
+		E6A964352319C51E005B8F58 /* de-g2.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "de-g2.ctb"; sourceTree = "<group>"; };
+		E6A964362319C51E005B8F58 /* mn-MN-common.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "mn-MN-common.cti"; sourceTree = "<group>"; };
+		E6A964372319C51E005B8F58 /* is-chardefs6.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "is-chardefs6.cti"; sourceTree = "<group>"; };
+		E6A964382319C51E005B8F58 /* nl-g0.uti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "nl-g0.uti"; sourceTree = "<group>"; };
+		E6A964392319C51E005B8F58 /* hi-in-g1.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "hi-in-g1.utb"; sourceTree = "<group>"; };
+		E6A9643A2319C51E005B8F58 /* gon.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = gon.ctb; sourceTree = "<group>"; };
+		E6A9643B2319C51E005B8F58 /* de-eurobrl6u.dis */ = {isa = PBXFileReference; lastKnownFileType = text; path = "de-eurobrl6u.dis"; sourceTree = "<group>"; };
+		E6A9643C2319C51E005B8F58 /* nl.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = nl.tbl; sourceTree = "<group>"; };
+		E6A9643D2319C51E005B8F58 /* ukmaths_single_cell_defs.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = ukmaths_single_cell_defs.cti; sourceTree = "<group>"; };
+		E6A9643E2319C51E005B8F58 /* sv-1996.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "sv-1996.ctb"; sourceTree = "<group>"; };
+		E6A9643F2319C51E005B8F58 /* ko-g1-rules.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ko-g1-rules.cti"; sourceTree = "<group>"; };
+		E6A964402319C51E005B8F58 /* no-no-comp8.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "no-no-comp8.ctb"; sourceTree = "<group>"; };
+		E6A964412319C51E005B8F58 /* da-dk-octobraille.dis */ = {isa = PBXFileReference; lastKnownFileType = text; path = "da-dk-octobraille.dis"; sourceTree = "<group>"; };
+		E6A964422319C51E005B8F58 /* bo.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = bo.tbl; sourceTree = "<group>"; };
+		E6A964432319C51E005B8F58 /* hyph_pt_PT.dic */ = {isa = PBXFileReference; lastKnownFileType = text; path = hyph_pt_PT.dic; sourceTree = "<group>"; };
+		E6A964442319C51E005B8F58 /* ka-in-g1.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ka-in-g1.utb"; sourceTree = "<group>"; };
+		E6A964452319C51E005B8F58 /* sr-chardefs.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "sr-chardefs.cti"; sourceTree = "<group>"; };
+		E6A964462319C51E005B8F58 /* hu-exceptionwords.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "hu-exceptionwords.cti"; sourceTree = "<group>"; };
+		E6A964472319C51E005B8F58 /* es-chardefs.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "es-chardefs.cti"; sourceTree = "<group>"; };
+		E6A964482319C51E005B8F58 /* da-dk-g26-lit.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "da-dk-g26-lit.ctb"; sourceTree = "<group>"; };
+		E6A964492319C51E005B8F58 /* is.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = is.ctb; sourceTree = "<group>"; };
+		E6A9644A2319C51E005B8F58 /* hu-hu-g1.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "hu-hu-g1.ctb"; sourceTree = "<group>"; };
+		E6A9644B2319C51E005B8F58 /* es-g1.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "es-g1.ctb"; sourceTree = "<group>"; };
+		E6A9644C2319C51E005B8F58 /* fr-bfu-comp8.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "fr-bfu-comp8.utb"; sourceTree = "<group>"; };
+		E6A9644D2319C51E005B8F58 /* da-dk.dis */ = {isa = PBXFileReference; lastKnownFileType = text; path = "da-dk.dis"; sourceTree = "<group>"; };
+		E6A9644E2319C51E005B8F58 /* ga-g1.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ga-g1.utb"; sourceTree = "<group>"; };
+		E6A9644F2319C51E005B8F58 /* ro.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = ro.ctb; sourceTree = "<group>"; };
+		E6A964502319C51E005B8F58 /* de-g1.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "de-g1.ctb"; sourceTree = "<group>"; };
+		E6A964512319C51E005B8F58 /* en-ueb-math.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "en-ueb-math.ctb"; sourceTree = "<group>"; };
+		E6A964522319C51E005B8F58 /* no-no.dis */ = {isa = PBXFileReference; lastKnownFileType = text; path = "no-no.dis"; sourceTree = "<group>"; };
+		E6A964532319C51E005B8F58 /* de-chess.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "de-chess.ctb"; sourceTree = "<group>"; };
+		E6A964542319C51E005B8F58 /* te-in-g1.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "te-in-g1.utb"; sourceTree = "<group>"; };
+		E6A964552319C51E005B8F58 /* de-de-comp8.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "de-de-comp8.ctb"; sourceTree = "<group>"; };
+		E6A964562319C51E005B8F58 /* lt-6dot.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "lt-6dot.utb"; sourceTree = "<group>"; };
+		E6A964572319C51E005B8F58 /* Lv-Lv-g1.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Lv-Lv-g1.utb"; sourceTree = "<group>"; };
+		E6A964582319C51E005B8F58 /* kannada.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = kannada.cti; sourceTree = "<group>"; };
+		E6A964592319C51E005B8F58 /* ar-ar-g1.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ar-ar-g1.utb"; sourceTree = "<group>"; };
+		E6A9645A2319C51E005B8F58 /* ta.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = ta.tbl; sourceTree = "<group>"; };
+		E6A9645B2319C51E005B8F58 /* vi.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = vi.tbl; sourceTree = "<group>"; };
+		E6A9645C2319C51E005B8F58 /* nl_BE.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = nl_BE.tbl; sourceTree = "<group>"; };
+		E6A9645D2319C51E005B8F58 /* Se-Se-g1.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Se-Se-g1.utb"; sourceTree = "<group>"; };
+		E6A9645E2319C51E005B8F58 /* as-in-g1.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "as-in-g1.utb"; sourceTree = "<group>"; };
+		E6A9645F2319C51E005B8F58 /* mt.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = mt.tbl; sourceTree = "<group>"; };
+		E6A964602319C51E005B8F58 /* no.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = no.tbl; sourceTree = "<group>"; };
+		E6A964612319C51E005B8F58 /* eo.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = eo.tbl; sourceTree = "<group>"; };
+		E6A964622319C51E005B8F58 /* mao-nz-g1.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "mao-nz-g1.ctb"; sourceTree = "<group>"; };
+		E6A964632319C51E005B8F58 /* unicode-without-blank.dis */ = {isa = PBXFileReference; lastKnownFileType = text; path = "unicode-without-blank.dis"; sourceTree = "<group>"; };
+		E6A964642319C51E005B8F58 /* da-dk-g26l.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "da-dk-g26l.ctb"; sourceTree = "<group>"; };
+		E6A964652319C51E005B8F58 /* hu-hu-comp8.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "hu-hu-comp8.ctb"; sourceTree = "<group>"; };
+		E6A964662319C51E005B8F58 /* hu-hu-g2_exceptions.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "hu-hu-g2_exceptions.cti"; sourceTree = "<group>"; };
+		E6A964672319C51E005B8F58 /* pu-in-g1.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "pu-in-g1.utb"; sourceTree = "<group>"; };
+		E6A964682319C51E005B8F58 /* fa-ir-g1.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "fa-ir-g1.utb"; sourceTree = "<group>"; };
+		E6A964692319C51E005B8F58 /* gurumuki.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = gurumuki.cti; sourceTree = "<group>"; };
+		E6A9646A2319C51E005B8F58 /* sot-za-g1.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "sot-za-g1.ctb"; sourceTree = "<group>"; };
+		E6A9646B2319C51E005B8F58 /* hyph_eo.dic */ = {isa = PBXFileReference; lastKnownFileType = text; path = hyph_eo.dic; sourceTree = "<group>"; };
+		E6A9646C2319C51E005B8F58 /* hi.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = hi.tbl; sourceTree = "<group>"; };
+		E6A9646D2319C51E005B8F58 /* no-no-braillo-047-01.dis */ = {isa = PBXFileReference; lastKnownFileType = text; path = "no-no-braillo-047-01.dis"; sourceTree = "<group>"; };
+		E6A9646E2319C51E005B8F58 /* gd.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = gd.tbl; sourceTree = "<group>"; };
+		E6A9646F2319C51E005B8F58 /* it-it-comp8.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "it-it-comp8.utb"; sourceTree = "<group>"; };
+		E6A964702319C51E005B8F58 /* el.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = el.tbl; sourceTree = "<group>"; };
+		E6A964712319C51E005B8F58 /* hr-digits.uti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "hr-digits.uti"; sourceTree = "<group>"; };
+		E6A964722319C51E005B8F58 /* ru-ru.dis */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ru-ru.dis"; sourceTree = "<group>"; };
+		E6A964732319C51E005B8F58 /* sa.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = sa.tbl; sourceTree = "<group>"; };
+		E6A964742319C51E005B8F58 /* sin.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = sin.cti; sourceTree = "<group>"; };
+		E6A964752319C51E005B8F58 /* sv.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = sv.tbl; sourceTree = "<group>"; };
+		E6A964762319C51E005B8F58 /* corrections.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = corrections.cti; sourceTree = "<group>"; };
+		E6A964772319C51E005B8F58 /* IPA.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = IPA.utb; sourceTree = "<group>"; };
+		E6A964782319C51E005B8F58 /* ks-in-g1.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ks-in-g1.utb"; sourceTree = "<group>"; };
+		E6A964792319C51E005B8F58 /* ne.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = ne.ctb; sourceTree = "<group>"; };
+		E6A9647A2319C51E005B8F58 /* nl-BE.dis */ = {isa = PBXFileReference; lastKnownFileType = text; path = "nl-BE.dis"; sourceTree = "<group>"; };
+		E6A9647B2319C51E005B8F58 /* eo-g1.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "eo-g1.ctb"; sourceTree = "<group>"; };
+		E6A9647C2319C51E005B8F58 /* gr-bb.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "gr-bb.ctb"; sourceTree = "<group>"; };
+		E6A9647D2319C51E005B8F58 /* hu-chardefs.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "hu-chardefs.cti"; sourceTree = "<group>"; };
+		E6A9647E2319C51E005B8F58 /* bg.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = bg.ctb; sourceTree = "<group>"; };
+		E6A9647F2319C51E005B8F58 /* latinLetterDef6Dots.uti */ = {isa = PBXFileReference; lastKnownFileType = text; path = latinLetterDef6Dots.uti; sourceTree = "<group>"; };
+		E6A964802319C51E005B8F58 /* kok.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = kok.tbl; sourceTree = "<group>"; };
+		E6A964812319C51E005B8F58 /* hr-chardefs.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "hr-chardefs.cti"; sourceTree = "<group>"; };
+		E6A964822319C51E005B8F58 /* pl.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = pl.tbl; sourceTree = "<group>"; };
+		E6A964832319C51E005B8F58 /* uk.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = uk.utb; sourceTree = "<group>"; };
+		E6A964842319C51E005B8F58 /* hyph_hu_HU.dic */ = {isa = PBXFileReference; lastKnownFileType = text; path = hyph_hu_HU.dic; sourceTree = "<group>"; };
+		E6A964852319C51E005B8F58 /* mni.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = mni.tbl; sourceTree = "<group>"; };
+		E6A964862319C51E005B8F58 /* ga.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = ga.tbl; sourceTree = "<group>"; };
+		E6A964872319C51E005B8F58 /* marburg_unicode_defs.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = marburg_unicode_defs.cti; sourceTree = "<group>"; };
+		E6A964882319C51E005B8F58 /* hy.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = hy.tbl; sourceTree = "<group>"; };
+		E6A964892319C51E005B8F58 /* zhcn-g1.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "zhcn-g1.ctb"; sourceTree = "<group>"; };
+		E6A9648A2319C51E005B8F58 /* tr-g1.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "tr-g1.ctb"; sourceTree = "<group>"; };
+		E6A9648B2319C51E005B8F58 /* sd.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = sd.tbl; sourceTree = "<group>"; };
+		E6A9648C2319C51E005B8F58 /* en-in-g1.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "en-in-g1.ctb"; sourceTree = "<group>"; };
+		E6A9648D2319C51E005B8F58 /* de-chardefs6.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "de-chardefs6.cti"; sourceTree = "<group>"; };
+		E6A9648E2319C51E005B8F58 /* sk-g1.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "sk-g1.ctb"; sourceTree = "<group>"; };
+		E6A9648F2319C51E005B8F58 /* hyph_da_DK.dic */ = {isa = PBXFileReference; lastKnownFileType = text; path = hyph_da_DK.dic; sourceTree = "<group>"; };
+		E6A964902319C51E005B8F58 /* zh-chn.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "zh-chn.ctb"; sourceTree = "<group>"; };
+		E6A964912319C51E005B8F58 /* sr.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = sr.tbl; sourceTree = "<group>"; };
+		E6A964922319C51E005B8F58 /* pi.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = pi.tbl; sourceTree = "<group>"; };
+		E6A964932319C51E005B8F58 /* malayalam.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = malayalam.cti; sourceTree = "<group>"; };
+		E6A964942319C51E005B8F58 /* us-table.dis */ = {isa = PBXFileReference; lastKnownFileType = text; path = "us-table.dis"; sourceTree = "<group>"; };
+		E6A964952319C51E005B8F58 /* tsn-za-g1.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "tsn-za-g1.ctb"; sourceTree = "<group>"; };
+		E6A964962319C51E005B8F58 /* gu.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = gu.tbl; sourceTree = "<group>"; };
+		E6A964972319C51E005B8F58 /* mn-in-g1.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "mn-in-g1.utb"; sourceTree = "<group>"; };
+		E6A964982319C51E005B8F58 /* no-no-chardefs6.uti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "no-no-chardefs6.uti"; sourceTree = "<group>"; };
+		E6A964992319C51E005B8F58 /* afr-za-g1.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "afr-za-g1.ctb"; sourceTree = "<group>"; };
+		E6A9649A2319C51E005B8F58 /* zhcn-g2.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "zhcn-g2.ctb"; sourceTree = "<group>"; };
+		E6A9649B2319C51E005B8F58 /* hr-g1.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "hr-g1.ctb"; sourceTree = "<group>"; };
+		E6A9649C2319C51E005B8F58 /* tr-g2.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "tr-g2.ctb"; sourceTree = "<group>"; };
+		E6A9649D2319C51E005B8F58 /* awa.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = awa.tbl; sourceTree = "<group>"; };
+		E6A9649E2319C51E005B8F58 /* se-se.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "se-se.ctb"; sourceTree = "<group>"; };
+		E6A9649F2319C51E005B8F58 /* hyph_ru.dic */ = {isa = PBXFileReference; lastKnownFileType = text; path = hyph_ru.dic; sourceTree = "<group>"; };
+		E6A964A02319C51E005B8F58 /* ko-2006.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ko-2006.cti"; sourceTree = "<group>"; };
+		E6A964A12319C51E005B8F58 /* ckb-g1.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ckb-g1.ctb"; sourceTree = "<group>"; };
+		E6A964A22319C51E005B8F58 /* en_CA.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = en_CA.tbl; sourceTree = "<group>"; };
+		E6A964A32319C51E005B8F58 /* wiskunde-chardefs.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "wiskunde-chardefs.cti"; sourceTree = "<group>"; };
+		E6A964A42319C51E005B8F58 /* hr-translation.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "hr-translation.cti"; sourceTree = "<group>"; };
+		E6A964A52319C51E005B8F58 /* ru.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = ru.tbl; sourceTree = "<group>"; };
+		E6A964A62319C51E005B8F58 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		E6A964A72319C51E005B8F58 /* no-no-8dot.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "no-no-8dot.utb"; sourceTree = "<group>"; };
+		E6A964A82319C51E005B8F58 /* or-in-g1.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "or-in-g1.utb"; sourceTree = "<group>"; };
+		E6A964A92319C51E005B8F58 /* hyph_en_US.dic */ = {isa = PBXFileReference; lastKnownFileType = text; path = hyph_en_US.dic; sourceTree = "<group>"; };
+		E6A964AA2319C51E005B8F58 /* hyph_sv_SE.dic */ = {isa = PBXFileReference; lastKnownFileType = text; path = hyph_sv_SE.dic; sourceTree = "<group>"; };
+		E6A964AB2319C51E005B8F58 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		E6A964AC2319C51E005B8F58 /* kh-in-g1.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "kh-in-g1.utb"; sourceTree = "<group>"; };
+		E6A964AD2319C51E005B8F58 /* telugu.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = telugu.cti; sourceTree = "<group>"; };
+		E6A964AE2319C51E005B8F58 /* sk.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = sk.tbl; sourceTree = "<group>"; };
+		E6A964AF2319C51E005B8F58 /* ro.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = ro.tbl; sourceTree = "<group>"; };
+		E6A964B02319C51E005B8F58 /* loweredDigits8Dots.uti */ = {isa = PBXFileReference; lastKnownFileType = text; path = loweredDigits8Dots.uti; sourceTree = "<group>"; };
+		E6A964B12319C51E005B8F58 /* nl-chardefs.uti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "nl-chardefs.uti"; sourceTree = "<group>"; };
+		E6A964B22319C51E005B8F58 /* ko-chars.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ko-chars.cti"; sourceTree = "<group>"; };
+		E6A964B32319C51E005B8F58 /* mt.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = mt.ctb; sourceTree = "<group>"; };
+		E6A964B42319C51E005B8F58 /* da-dk-g16-lit.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "da-dk-g16-lit.ctb"; sourceTree = "<group>"; };
+		E6A964B52319C51E005B8F58 /* vi.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = vi.ctb; sourceTree = "<group>"; };
+		E6A964B62319C51E005B8F58 /* ta.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = ta.ctb; sourceTree = "<group>"; };
+		E6A964B72319C51E005B8F58 /* de-chardefs8.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "de-chardefs8.cti"; sourceTree = "<group>"; };
+		E6A964B82319C51E005B8F58 /* en-ueb-g1.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "en-ueb-g1.ctb"; sourceTree = "<group>"; };
+		E6A964B92319C51E005B8F58 /* fi-fi.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "fi-fi.ctb"; sourceTree = "<group>"; };
+		E6A964BA2319C51E005B8F58 /* ca-chardefs.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ca-chardefs.cti"; sourceTree = "<group>"; };
+		E6A964BB2319C51E005B8F58 /* sl-si-g1.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "sl-si-g1.utb"; sourceTree = "<group>"; };
+		E6A964BC2319C51E005B8F58 /* hu-hu-g1_braille_input.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "hu-hu-g1_braille_input.cti"; sourceTree = "<group>"; };
+		E6A964BD2319C51E005B8F58 /* en-us-g1.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "en-us-g1.ctb"; sourceTree = "<group>"; };
+		E6A964BE2319C51E005B8F58 /* is.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = is.tbl; sourceTree = "<group>"; };
+		E6A964BF2319C51E005B8F58 /* uni-text.dis */ = {isa = PBXFileReference; lastKnownFileType = text; path = "uni-text.dis"; sourceTree = "<group>"; };
+		E6A964C02319C51E005B8F58 /* nemethdefs.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = nemethdefs.cti; sourceTree = "<group>"; };
+		E6A964C12319C51E005B8F58 /* fi.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = fi.tbl; sourceTree = "<group>"; };
+		E6A964C22319C51E005B8F58 /* kn.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = kn.tbl; sourceTree = "<group>"; };
+		E6A964C32319C51E005B8F58 /* hu.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = hu.tbl; sourceTree = "<group>"; };
+		E6A964C42319C51E005B8F58 /* cs-comp8.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "cs-comp8.utb"; sourceTree = "<group>"; };
+		E6A964C52319C51E005B8F58 /* bo.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = bo.ctb; sourceTree = "<group>"; };
+		E6A964C62319C51E005B8F58 /* sl-si-comp8.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "sl-si-comp8.ctb"; sourceTree = "<group>"; };
+		E6A964C72319C51E005B8F58 /* br-in-g1.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "br-in-g1.utb"; sourceTree = "<group>"; };
+		E6A964C82319C51E005B8F58 /* hr-comp8.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = "hr-comp8.tbl"; sourceTree = "<group>"; };
+		E6A964C92319C51E005B8F58 /* controlchars.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = controlchars.cti; sourceTree = "<group>"; };
+		E6A964CA2319C51E005B8F58 /* gon.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = gon.tbl; sourceTree = "<group>"; };
+		E6A964CB2319C51E005B8F58 /* printables.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = printables.cti; sourceTree = "<group>"; };
+		E6A964CC2319C51E005B8F58 /* cs-g1.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "cs-g1.ctb"; sourceTree = "<group>"; };
+		E6A964CD2319C51E005B8F58 /* bra.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = bra.tbl; sourceTree = "<group>"; };
+		E6A964CE2319C51E005B8F58 /* en-ueb-g2.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "en-ueb-g2.ctb"; sourceTree = "<group>"; };
+		E6A964CF2319C51E005B8F58 /* de-g0-core.uti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "de-g0-core.uti"; sourceTree = "<group>"; };
+		E6A964D02319C51E005B8F58 /* ethio-g1.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ethio-g1.ctb"; sourceTree = "<group>"; };
+		E6A964D12319C51E005B8F58 /* digits6Dots.uti */ = {isa = PBXFileReference; lastKnownFileType = text; path = digits6Dots.uti; sourceTree = "<group>"; };
+		E6A964D22319C51E005B8F58 /* aw-in-g1.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "aw-in-g1.utb"; sourceTree = "<group>"; };
+		E6A964D32319C51E005B8F58 /* en-us-g2.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "en-us-g2.ctb"; sourceTree = "<group>"; };
+		E6A964D42319C51E005B8F58 /* sk-sk.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "sk-sk.utb"; sourceTree = "<group>"; };
+		E6A964D52319C51E005B8F58 /* es.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = es.tbl; sourceTree = "<group>"; };
+		E6A964D62319C51E005B8F58 /* unicodedefs.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = unicodedefs.cti; sourceTree = "<group>"; };
+		E6A964D72319C51E005B8F58 /* mn-MN-g2.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "mn-MN-g2.ctb"; sourceTree = "<group>"; };
+		E6A964D82319C51E005B8F58 /* da-dk-g28l.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "da-dk-g28l.ctb"; sourceTree = "<group>"; };
+		E6A964D92319C51E005B8F58 /* mun.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = mun.tbl; sourceTree = "<group>"; };
+		E6A964DA2319C51E005B8F58 /* it.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = it.tbl; sourceTree = "<group>"; };
+		E6A964DB2319C51E005B8F58 /* pt-pt-comp8.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "pt-pt-comp8.ctb"; sourceTree = "<group>"; };
+		E6A964DC2319C51E005B8F58 /* kru.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = kru.ctb; sourceTree = "<group>"; };
+		E6A964DD2319C51E005B8F58 /* eo-g1-x-system.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "eo-g1-x-system.ctb"; sourceTree = "<group>"; };
+		E6A964DE2319C51E005B8F58 /* zh-tw.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "zh-tw.ctb"; sourceTree = "<group>"; };
+		E6A964DF2319C51E005B8F58 /* ko-2006-g2.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ko-2006-g2.ctb"; sourceTree = "<group>"; };
+		E6A964E02319C51E005B8F58 /* pa.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = pa.tbl; sourceTree = "<group>"; };
+		E6A964E12319C51E005B8F58 /* chr-us-g1.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "chr-us-g1.ctb"; sourceTree = "<group>"; };
+		E6A964E22319C51E005B8F58 /* en-chess.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "en-chess.ctb"; sourceTree = "<group>"; };
+		E6A964E32319C51E005B8F58 /* vi-g1.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "vi-g1.ctb"; sourceTree = "<group>"; };
+		E6A964E42319C51E005B8F58 /* en-us-compbrl.uti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "en-us-compbrl.uti"; sourceTree = "<group>"; };
+		E6A964E52319C51E005B8F58 /* zh_TW.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = zh_TW.tbl; sourceTree = "<group>"; };
+		E6A964E62319C51E005B8F58 /* sl.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = sl.tbl; sourceTree = "<group>"; };
+		E6A964E72319C51E005B8F58 /* nl-BE-g0.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "nl-BE-g0.utb"; sourceTree = "<group>"; };
+		E6A964E82319C51E005B8F58 /* de-g1-core.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "de-g1-core.cti"; sourceTree = "<group>"; };
+		E6A964E92319C51E005B8F58 /* np-in-g1.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "np-in-g1.utb"; sourceTree = "<group>"; };
+		E6A964EA2319C51E005B8F58 /* pl-pl-comp8.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "pl-pl-comp8.ctb"; sourceTree = "<group>"; };
+		E6A964EB2319C51E005B8F58 /* et.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = et.tbl; sourceTree = "<group>"; };
+		E6A964EC2319C51E005B8F58 /* nl-NL-g0.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "nl-NL-g0.utb"; sourceTree = "<group>"; };
+		E6A964ED2319C51E005B8F58 /* mwr.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = mwr.tbl; sourceTree = "<group>"; };
+		E6A964EE2319C51E005B8F58 /* ko-2006-g1.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ko-2006-g1.ctb"; sourceTree = "<group>"; };
+		E6A964EF2319C51E005B8F58 /* lt-6dot.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = "lt-6dot.tbl"; sourceTree = "<group>"; };
+		E6A964F02319C51E005B8F58 /* no-no-generic.dis */ = {isa = PBXFileReference; lastKnownFileType = text; path = "no-no-generic.dis"; sourceTree = "<group>"; };
+		E6A964F12319C51E005B8F58 /* de-de.dis */ = {isa = PBXFileReference; lastKnownFileType = text; path = "de-de.dis"; sourceTree = "<group>"; };
+		E6A964F22319C51E005B8F58 /* en_US.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = en_US.tbl; sourceTree = "<group>"; };
+		E6A964F32319C51E005B8F58 /* Es-Es-G0.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Es-Es-G0.utb"; sourceTree = "<group>"; };
+		E6A964F42319C51E005B8F58 /* zh_CHN.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = zh_CHN.tbl; sourceTree = "<group>"; };
+		E6A964F52319C51E005B8F58 /* tr.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = tr.ctb; sourceTree = "<group>"; };
+		E6A964F62319C51E005B8F58 /* lt.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = lt.ctb; sourceTree = "<group>"; };
+		E6A964F72319C51E005B8F58 /* bh.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = bh.ctb; sourceTree = "<group>"; };
+		E6A964F82319C51E005B8F58 /* mn-MN-g1.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "mn-MN-g1.utb"; sourceTree = "<group>"; };
+		E6A964F92319C51E005B8F58 /* pt.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = pt.tbl; sourceTree = "<group>"; };
+		E6A964FA2319C51E005B8F58 /* fa-ir-comp8.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "fa-ir-comp8.ctb"; sourceTree = "<group>"; };
+		E6A964FB2319C51E005B8F58 /* dra.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = dra.tbl; sourceTree = "<group>"; };
+		E6A964FC2319C51E005B8F58 /* ko.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = ko.cti; sourceTree = "<group>"; };
+		E6A964FD2319C51E005B8F58 /* he.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = he.tbl; sourceTree = "<group>"; };
+		E6A964FE2319C51E005B8F58 /* fr-bfu-comp68.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "fr-bfu-comp68.cti"; sourceTree = "<group>"; };
+		E6A964FF2319C51E005B8F58 /* de-g1-core-patterns.dic */ = {isa = PBXFileReference; lastKnownFileType = text; path = "de-g1-core-patterns.dic"; sourceTree = "<group>"; };
+		E6A965002319C51E005B8F58 /* it-it-comp6.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "it-it-comp6.utb"; sourceTree = "<group>"; };
+		E6A965012319C51E005B8F58 /* ru-litbrl.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ru-litbrl.ctb"; sourceTree = "<group>"; };
+		E6A965022319C51E005B8F58 /* zh-hk.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "zh-hk.ctb"; sourceTree = "<group>"; };
+		E6A965032319C51E005B8F58 /* en_CA.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = en_CA.ctb; sourceTree = "<group>"; };
+		E6A965042319C51E005B8F58 /* en-chardefs.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "en-chardefs.cti"; sourceTree = "<group>"; };
+		E6A965052319C51E005B8F58 /* ckb.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = ckb.tbl; sourceTree = "<group>"; };
+		E6A965062319C51E005B8F58 /* de-accents.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "de-accents.cti"; sourceTree = "<group>"; };
+		E6A965072319C51E005B8F58 /* hyph_it_IT.dic */ = {isa = PBXFileReference; lastKnownFileType = text; path = hyph_it_IT.dic; sourceTree = "<group>"; };
+		E6A965082319C51E005B8F58 /* is-chardefs8.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "is-chardefs8.cti"; sourceTree = "<group>"; };
+		E6A965092319C51E005B8F58 /* gez.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = gez.tbl; sourceTree = "<group>"; };
+		E6A9650A2319C51E005B8F58 /* ru.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = ru.ctb; sourceTree = "<group>"; };
+		E6A9650B2319C51E005B8F58 /* Pl-Pl-g1.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Pl-Pl-g1.utb"; sourceTree = "<group>"; };
+		E6A9650C2319C51E005B8F58 /* mr-in-g1.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "mr-in-g1.utb"; sourceTree = "<group>"; };
+		E6A9650D2319C51E005B8F58 /* cy-cy-g2.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "cy-cy-g2.ctb"; sourceTree = "<group>"; };
+		E6A9650E2319C51E005B8F58 /* countries.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = countries.cti; sourceTree = "<group>"; };
+		E6A9650F2319C51E005B8F58 /* tr-g2.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = "tr-g2.tbl"; sourceTree = "<group>"; };
+		E6A965102319C51E005B8F58 /* ca-g1.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ca-g1.ctb"; sourceTree = "<group>"; };
+		E6A965112319C51E005B8F58 /* hr-g1.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = "hr-g1.tbl"; sourceTree = "<group>"; };
+		E6A965122319C51E005B8F58 /* boxes.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = boxes.ctb; sourceTree = "<group>"; };
+		E6A965132319C51E005B8F58 /* zh_HK.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = zh_HK.tbl; sourceTree = "<group>"; };
+		E6A965142319C51E005B8F58 /* devanagari.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = devanagari.cti; sourceTree = "<group>"; };
+		E6A965152319C51E005B8F58 /* gu-in-g1.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "gu-in-g1.utb"; sourceTree = "<group>"; };
+		E6A965162319C51E005B8F58 /* et-g0.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "et-g0.utb"; sourceTree = "<group>"; };
+		E6A965172319C51E005B8F58 /* da-dk-g08.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "da-dk-g08.ctb"; sourceTree = "<group>"; };
+		E6A965182319C51E005B8F58 /* ko-g2.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ko-g2.ctb"; sourceTree = "<group>"; };
+		E6A965192319C51E005B8F58 /* fr-bfu-g2.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "fr-bfu-g2.ctb"; sourceTree = "<group>"; };
+		E6A9651A2319C51E005B8F58 /* cs.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = cs.tbl; sourceTree = "<group>"; };
+		E6A9651B2319C51E005B8F58 /* ukchardefs.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = ukchardefs.cti; sourceTree = "<group>"; };
+		E6A9651C2319C51E005B8F58 /* no-no-g0.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "no-no-g0.utb"; sourceTree = "<group>"; };
+		E6A9651D2319C51E005B8F58 /* pt-pt-g1.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "pt-pt-g1.utb"; sourceTree = "<group>"; };
+		E6A9651E2319C51E005B8F58 /* or.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = or.tbl; sourceTree = "<group>"; };
+		E6A9651F2319C51E005B8F58 /* en-us-brf.dis */ = {isa = PBXFileReference; lastKnownFileType = text; path = "en-us-brf.dis"; sourceTree = "<group>"; };
+		E6A965202319C51E005B8F58 /* sk-sk-g1.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "sk-sk-g1.utb"; sourceTree = "<group>"; };
+		E6A965212319C51E005B8F58 /* en-us-comp8-ext.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "en-us-comp8-ext.utb"; sourceTree = "<group>"; };
+		E6A965222319C51E005B8F58 /* latinLetterDef8Dots.uti */ = {isa = PBXFileReference; lastKnownFileType = text; path = latinLetterDef8Dots.uti; sourceTree = "<group>"; };
+		E6A965232319C51E005B8F58 /* unicode-braille.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "unicode-braille.utb"; sourceTree = "<group>"; };
+		E6A965242319C51E005B8F58 /* hyph_es_ES.dic */ = {isa = PBXFileReference; lastKnownFileType = text; path = hyph_es_ES.dic; sourceTree = "<group>"; };
+		E6A965252319C51E005B8F58 /* ar-ar-comp8.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ar-ar-comp8.utb"; sourceTree = "<group>"; };
+		E6A965262319C51E005B8F58 /* no-no-generic.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "no-no-generic.ctb"; sourceTree = "<group>"; };
+		E6A965272319C51E005B8F58 /* pi.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = pi.ctb; sourceTree = "<group>"; };
+		E6A965282319C51E005B8F58 /* es-new.dis */ = {isa = PBXFileReference; lastKnownFileType = text; path = "es-new.dis"; sourceTree = "<group>"; };
+		E6A965292319C51E005B8F58 /* digits6DotsPlusDot6.uti */ = {isa = PBXFileReference; lastKnownFileType = text; path = digits6DotsPlusDot6.uti; sourceTree = "<group>"; };
+		E6A9652A2319C51E005B8F58 /* cs-letterDef8Dots.uti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "cs-letterDef8Dots.uti"; sourceTree = "<group>"; };
+		E6A9652B2319C51E005B8F58 /* fr-bfu-comp6.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "fr-bfu-comp6.utb"; sourceTree = "<group>"; };
+		E6A9652C2319C51E005B8F58 /* hy.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = hy.ctb; sourceTree = "<group>"; };
+		E6A9652D2319C51E005B8F58 /* hyph_nl_NL.dic */ = {isa = PBXFileReference; lastKnownFileType = text; path = hyph_nl_NL.dic; sourceTree = "<group>"; };
+		E6A9652E2319C51E005B8F58 /* en-gb-g1.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "en-gb-g1.utb"; sourceTree = "<group>"; };
+		E6A9652F2319C51E005B8F58 /* hyph_pl_PL.dic */ = {isa = PBXFileReference; lastKnownFileType = text; path = hyph_pl_PL.dic; sourceTree = "<group>"; };
+		E6A965302319C51E005B8F58 /* ru-chardefs.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ru-chardefs.cti"; sourceTree = "<group>"; };
+		E6A965312319C51E005B8F58 /* ml.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = ml.tbl; sourceTree = "<group>"; };
+		E6A965322319C51E005B8F58 /* ko-g1.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ko-g1.ctb"; sourceTree = "<group>"; };
+		E6A965332319C51E005B8F58 /* de-g2-core-patterns.dic */ = {isa = PBXFileReference; lastKnownFileType = text; path = "de-g2-core-patterns.dic"; sourceTree = "<group>"; };
+		E6A965342319C51E005B8F58 /* marburg_single_cell_defs.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = marburg_single_cell_defs.cti; sourceTree = "<group>"; };
+		E6A965352319C51E005B8F58 /* kok.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = kok.ctb; sourceTree = "<group>"; };
+		E6A965362319C51E005B8F58 /* bg.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = bg.tbl; sourceTree = "<group>"; };
+		E6A965372319C51E005B8F58 /* en-ueb-chardefs.uti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "en-ueb-chardefs.uti"; sourceTree = "<group>"; };
+		E6A965382319C51E005B8F58 /* ko-g2-rules.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ko-g2-rules.cti"; sourceTree = "<group>"; };
+		E6A965392319C51E005B8F58 /* kha.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = kha.tbl; sourceTree = "<group>"; };
+		E6A9653A2319C51E005B8F58 /* sa-in-g1.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "sa-in-g1.utb"; sourceTree = "<group>"; };
+		E6A9653B2319C51E005B8F58 /* hyph_fr_FR.dic */ = {isa = PBXFileReference; lastKnownFileType = text; path = hyph_fr_FR.dic; sourceTree = "<group>"; };
+		E6A9653C2319C51E005B8F58 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		E6A9653D2319C51E005B8F58 /* braille-patterns.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "braille-patterns.cti"; sourceTree = "<group>"; };
+		E6A9653E2319C51E005B8F58 /* cs-chardefs.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "cs-chardefs.cti"; sourceTree = "<group>"; };
+		E6A9653F2319C51E005B8F58 /* hu-backtranslate-correction.dis */ = {isa = PBXFileReference; lastKnownFileType = text; path = "hu-backtranslate-correction.dis"; sourceTree = "<group>"; };
+		E6A965402319C51E005B8F58 /* hyph_cs_CZ.dic */ = {isa = PBXFileReference; lastKnownFileType = text; path = hyph_cs_CZ.dic; sourceTree = "<group>"; };
+		E6A965412319C51E005B8F58 /* hyph_de_DE.dic */ = {isa = PBXFileReference; lastKnownFileType = text; path = hyph_de_DE.dic; sourceTree = "<group>"; };
+		E6A965422319C51E005B8F58 /* sk-translation.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "sk-translation.cti"; sourceTree = "<group>"; };
+		E6A965432319C51E005B8F58 /* unicode.dis */ = {isa = PBXFileReference; lastKnownFileType = text; path = unicode.dis; sourceTree = "<group>"; };
+		E6A965442319C51E005B8F58 /* IPA-unicode-range.uti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "IPA-unicode-range.uti"; sourceTree = "<group>"; };
+		E6A965452319C51E005B8F58 /* fi1.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = fi1.ctb; sourceTree = "<group>"; };
+		E6A965462319C51E005B8F58 /* el.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = el.ctb; sourceTree = "<group>"; };
+		E6A965472319C51E005B8F58 /* iu-ca-g1.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "iu-ca-g1.ctb"; sourceTree = "<group>"; };
+		E6A965482319C51E005B8F58 /* no-no-g1.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "no-no-g1.ctb"; sourceTree = "<group>"; };
+		E6A965492319C51E005B8F58 /* bengali.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = bengali.cti; sourceTree = "<group>"; };
+		E6A9654A2319C51E005B8F58 /* gd.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = gd.ctb; sourceTree = "<group>"; };
+		E6A9654B2319C51E005B8F58 /* cy-cy-g1.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "cy-cy-g1.utb"; sourceTree = "<group>"; };
+		E6A9654C2319C51E005B8F58 /* no-no-8dot-fallback-6dot-g0.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "no-no-8dot-fallback-6dot-g0.utb"; sourceTree = "<group>"; };
+		E6A9654D2319C51E005B8F58 /* da-dk-g26.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "da-dk-g26.ctb"; sourceTree = "<group>"; };
+		E6A9654E2319C51E005B8F58 /* ne.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = ne.tbl; sourceTree = "<group>"; };
+		E6A9654F2319C51E005B8F58 /* sv-1989.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "sv-1989.ctb"; sourceTree = "<group>"; };
+		E6A965502319C51E005B8F58 /* da-dk-g18.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "da-dk-g18.ctb"; sourceTree = "<group>"; };
+		E6A965512319C51E005B8F58 /* ckb-chardefs.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ckb-chardefs.cti"; sourceTree = "<group>"; };
+		E6A965522319C51E005B8F58 /* no-no-g3.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "no-no-g3.ctb"; sourceTree = "<group>"; };
+		E6A965532319C51E005B8F58 /* pt-pt-g2.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "pt-pt-g2.ctb"; sourceTree = "<group>"; };
+		E6A965542319C51E005B8F58 /* en_GB.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = en_GB.tbl; sourceTree = "<group>"; };
+		E6A965552319C51E005B8F58 /* gr-pl-comp8.uti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "gr-pl-comp8.uti"; sourceTree = "<group>"; };
+		E6A965562319C51E005B8F58 /* en-GB-g2.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "en-GB-g2.ctb"; sourceTree = "<group>"; };
+		E6A965572319C51E005B8F58 /* ml-in-g1.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ml-in-g1.utb"; sourceTree = "<group>"; };
+		E6A965582319C51E005B8F58 /* fi2.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = fi2.ctb; sourceTree = "<group>"; };
+		E6A965592319C51E005B8F58 /* ckb-translation.cti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ckb-translation.cti"; sourceTree = "<group>"; };
+		E6A9655A2319C51E005B8F58 /* hyph_nb_NO.dic */ = {isa = PBXFileReference; lastKnownFileType = text; path = hyph_nb_NO.dic; sourceTree = "<group>"; };
+		E6A9655B2319C51E005B8F58 /* no-no-g2.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "no-no-g2.ctb"; sourceTree = "<group>"; };
+		E6A9655C2319C51E005B8F58 /* sin.utb */ = {isa = PBXFileReference; lastKnownFileType = text; path = sin.utb; sourceTree = "<group>"; };
+		E6A9655D2319C51E005B8F58 /* no-no-latinLetterDef6Dots_diacritics.uti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "no-no-latinLetterDef6Dots_diacritics.uti"; sourceTree = "<group>"; };
+		E6A9655E2319C51E005B8F58 /* hyph_nn_NO.dic */ = {isa = PBXFileReference; lastKnownFileType = text; path = hyph_nn_NO.dic; sourceTree = "<group>"; };
+		E6A9655F2319C51E005B8F58 /* ru-letters.dis */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ru-letters.dis"; sourceTree = "<group>"; };
+		E6A965602319C51E005B8F58 /* ca.tbl */ = {isa = PBXFileReference; lastKnownFileType = text; path = ca.tbl; sourceTree = "<group>"; };
+		E6A965612319C51E005B8F58 /* en-us-comp6.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "en-us-comp6.ctb"; sourceTree = "<group>"; };
+		E6A965622319C51E005B8F58 /* sr-g1.ctb */ = {isa = PBXFileReference; lastKnownFileType = text; path = "sr-g1.ctb"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		E6A963EF2319C51E005B8F58 = {
+			isa = PBXGroup;
+			children = (
+				E6A963F52319C51E005B8F58 /* as.tbl */,
+				E6A963F62319C51E005B8F58 /* bh.tbl */,
+				E6A963F72319C51E005B8F58 /* litdigits6Dots.uti */,
+				E6A963F82319C51E005B8F58 /* lt.tbl */,
+				E6A963F92319C51E005B8F58 /* da-dk-g28.ctb */,
+				E6A963FA2319C51E005B8F58 /* de-g0.utb */,
+				E6A963FB2319C51E005B8F58 /* te.tbl */,
+				E6A963FC2319C51E005B8F58 /* tr.tbl */,
+				E6A963FD2319C51E005B8F58 /* ur-pk-g1.utb */,
+				E6A963FE2319C51E005B8F58 /* hyph_brl_da_dk.dic */,
+				E6A963FF2319C51E005B8F58 /* dra.ctb */,
+				E6A964002319C51E005B8F58 /* he.ctb */,
+				E6A964012319C51E005B8F58 /* en-gb-comp8.ctb */,
+				E6A964022319C51E005B8F58 /* fi-fi-8dot.ctb */,
+				E6A964032319C51E005B8F58 /* en-us-mathtext.ctb */,
+				E6A964042319C51E005B8F58 /* mwr.ctb */,
+				E6A964052319C51E005B8F58 /* loweredDigits6Dots.uti */,
+				E6A964062319C51E005B8F58 /* spaces.uti */,
+				E6A964072319C51E005B8F58 /* et.ctb */,
+				E6A964082319C51E005B8F58 /* cs-translation.cti */,
+				E6A964092319C51E005B8F58 /* de-accents-detailed.cti */,
+				E6A9640A2319C51E005B8F58 /* tamil.cti */,
+				E6A9640B2319C51E005B8F58 /* sk-chardefs.cti */,
+				E6A9640C2319C51E005B8F58 /* ar.tbl */,
+				E6A9640D2319C51E005B8F58 /* es-old.dis */,
+				E6A9640E2319C51E005B8F58 /* eurodefs.cti */,
+				E6A9640F2319C51E005B8F58 /* en-us-comp8.ctb */,
+				E6A964102319C51E005B8F58 /* gujarati.cti */,
+				E6A964112319C51E005B8F58 /* haw-us-g1.ctb */,
+				E6A964122319C51E005B8F58 /* si-in-g1.utb */,
+				E6A964132319C51E005B8F58 /* digits8Dots.uti */,
+				E6A964142319C51E005B8F58 /* ga-g2.ctb */,
+				E6A964152319C51E005B8F58 /* de-eurobrl6.dis */,
+				E6A964162319C51E005B8F58 /* be-in-g1.utb */,
+				E6A964172319C51E005B8F58 /* text_nabcc.dis */,
+				E6A964182319C51E005B8F58 /* da-lt.ctb */,
+				E6A964192319C51E005B8F58 /* compress.cti */,
+				E6A9641A2319C51E005B8F58 /* se-se.dis */,
+				E6A9641B2319C51E005B8F58 /* ar-ar-g2.ctb */,
+				E6A9641C2319C51E005B8F58 /* hr-comp8.utb */,
+				E6A9641D2319C51E005B8F58 /* da-dk-6miscChars.cti */,
+				E6A9641E2319C51E005B8F58 /* kru.tbl */,
+				E6A9641F2319C51E005B8F58 /* ru-unicode.dis */,
+				E6A964202319C51E005B8F58 /* mun.ctb */,
+				E6A964212319C51E005B8F58 /* de-g2-core.cti */,
+				E6A964222319C51E005B8F58 /* en_US-comp8-ext.tbl */,
+				E6A964232319C51E005B8F58 /* da-dk-g16.ctb */,
+				E6A964242319C51E005B8F58 /* en-us-interline.ctb */,
+				E6A964252319C51E005B8F58 /* lv.tbl */,
+				E6A964262319C51E005B8F58 /* mr.tbl */,
+				E6A964272319C51E005B8F58 /* cy.tbl */,
+				E6A964282319C51E005B8F58 /* fi.utb */,
+				E6A964292319C51E005B8F58 /* bn.tbl */,
+				E6A9642A2319C51E005B8F58 /* oriya.cti */,
+				E6A9642B2319C51E005B8F58 /* ru-ru-g1.utb */,
+				E6A9642C2319C51E005B8F58 /* ta-ta-g1.ctb */,
+				E6A9642D2319C51E005B8F58 /* hu-hu-g2.ctb */,
+				E6A9642E2319C51E005B8F58 /* .DS_Store */,
+				E6A9642F2319C51E005B8F58 /* es-g2.ctb */,
+				E6A964302319C51E005B8F58 /* da-dk-g26l-lit.ctb */,
+				E6A964312319C51E005B8F58 /* ur-pk-g2.ctb */,
+				E6A964322319C51E005B8F58 /* ru-compbrl.ctb */,
+				E6A964332319C51E005B8F58 /* litdigits6DotsPlusDot6.uti */,
+				E6A964342319C51E005B8F58 /* ukmaths_unicode_defs.cti */,
+				E6A964352319C51E005B8F58 /* de-g2.ctb */,
+				E6A964362319C51E005B8F58 /* mn-MN-common.cti */,
+				E6A964372319C51E005B8F58 /* is-chardefs6.cti */,
+				E6A964382319C51E005B8F58 /* nl-g0.uti */,
+				E6A964392319C51E005B8F58 /* hi-in-g1.utb */,
+				E6A9643A2319C51E005B8F58 /* gon.ctb */,
+				E6A9643B2319C51E005B8F58 /* de-eurobrl6u.dis */,
+				E6A9643C2319C51E005B8F58 /* nl.tbl */,
+				E6A9643D2319C51E005B8F58 /* ukmaths_single_cell_defs.cti */,
+				E6A9643E2319C51E005B8F58 /* sv-1996.ctb */,
+				E6A9643F2319C51E005B8F58 /* ko-g1-rules.cti */,
+				E6A964402319C51E005B8F58 /* no-no-comp8.ctb */,
+				E6A964412319C51E005B8F58 /* da-dk-octobraille.dis */,
+				E6A964422319C51E005B8F58 /* bo.tbl */,
+				E6A964432319C51E005B8F58 /* hyph_pt_PT.dic */,
+				E6A964442319C51E005B8F58 /* ka-in-g1.utb */,
+				E6A964452319C51E005B8F58 /* sr-chardefs.cti */,
+				E6A964462319C51E005B8F58 /* hu-exceptionwords.cti */,
+				E6A964472319C51E005B8F58 /* es-chardefs.cti */,
+				E6A964482319C51E005B8F58 /* da-dk-g26-lit.ctb */,
+				E6A964492319C51E005B8F58 /* is.ctb */,
+				E6A9644A2319C51E005B8F58 /* hu-hu-g1.ctb */,
+				E6A9644B2319C51E005B8F58 /* es-g1.ctb */,
+				E6A9644C2319C51E005B8F58 /* fr-bfu-comp8.utb */,
+				E6A9644D2319C51E005B8F58 /* da-dk.dis */,
+				E6A9644E2319C51E005B8F58 /* ga-g1.utb */,
+				E6A9644F2319C51E005B8F58 /* ro.ctb */,
+				E6A964502319C51E005B8F58 /* de-g1.ctb */,
+				E6A964512319C51E005B8F58 /* en-ueb-math.ctb */,
+				E6A964522319C51E005B8F58 /* no-no.dis */,
+				E6A964532319C51E005B8F58 /* de-chess.ctb */,
+				E6A964542319C51E005B8F58 /* te-in-g1.utb */,
+				E6A964552319C51E005B8F58 /* de-de-comp8.ctb */,
+				E6A964562319C51E005B8F58 /* lt-6dot.utb */,
+				E6A964572319C51E005B8F58 /* Lv-Lv-g1.utb */,
+				E6A964582319C51E005B8F58 /* kannada.cti */,
+				E6A964592319C51E005B8F58 /* ar-ar-g1.utb */,
+				E6A9645A2319C51E005B8F58 /* ta.tbl */,
+				E6A9645B2319C51E005B8F58 /* vi.tbl */,
+				E6A9645C2319C51E005B8F58 /* nl_BE.tbl */,
+				E6A9645D2319C51E005B8F58 /* Se-Se-g1.utb */,
+				E6A9645E2319C51E005B8F58 /* as-in-g1.utb */,
+				E6A9645F2319C51E005B8F58 /* mt.tbl */,
+				E6A964602319C51E005B8F58 /* no.tbl */,
+				E6A964612319C51E005B8F58 /* eo.tbl */,
+				E6A964622319C51E005B8F58 /* mao-nz-g1.ctb */,
+				E6A964632319C51E005B8F58 /* unicode-without-blank.dis */,
+				E6A964642319C51E005B8F58 /* da-dk-g26l.ctb */,
+				E6A964652319C51E005B8F58 /* hu-hu-comp8.ctb */,
+				E6A964662319C51E005B8F58 /* hu-hu-g2_exceptions.cti */,
+				E6A964672319C51E005B8F58 /* pu-in-g1.utb */,
+				E6A964682319C51E005B8F58 /* fa-ir-g1.utb */,
+				E6A964692319C51E005B8F58 /* gurumuki.cti */,
+				E6A9646A2319C51E005B8F58 /* sot-za-g1.ctb */,
+				E6A9646B2319C51E005B8F58 /* hyph_eo.dic */,
+				E6A9646C2319C51E005B8F58 /* hi.tbl */,
+				E6A9646D2319C51E005B8F58 /* no-no-braillo-047-01.dis */,
+				E6A9646E2319C51E005B8F58 /* gd.tbl */,
+				E6A9646F2319C51E005B8F58 /* it-it-comp8.utb */,
+				E6A964702319C51E005B8F58 /* el.tbl */,
+				E6A964712319C51E005B8F58 /* hr-digits.uti */,
+				E6A964722319C51E005B8F58 /* ru-ru.dis */,
+				E6A964732319C51E005B8F58 /* sa.tbl */,
+				E6A964742319C51E005B8F58 /* sin.cti */,
+				E6A964752319C51E005B8F58 /* sv.tbl */,
+				E6A964762319C51E005B8F58 /* corrections.cti */,
+				E6A964772319C51E005B8F58 /* IPA.utb */,
+				E6A964782319C51E005B8F58 /* ks-in-g1.utb */,
+				E6A964792319C51E005B8F58 /* ne.ctb */,
+				E6A9647A2319C51E005B8F58 /* nl-BE.dis */,
+				E6A9647B2319C51E005B8F58 /* eo-g1.ctb */,
+				E6A9647C2319C51E005B8F58 /* gr-bb.ctb */,
+				E6A9647D2319C51E005B8F58 /* hu-chardefs.cti */,
+				E6A9647E2319C51E005B8F58 /* bg.ctb */,
+				E6A9647F2319C51E005B8F58 /* latinLetterDef6Dots.uti */,
+				E6A964802319C51E005B8F58 /* kok.tbl */,
+				E6A964812319C51E005B8F58 /* hr-chardefs.cti */,
+				E6A964822319C51E005B8F58 /* pl.tbl */,
+				E6A964832319C51E005B8F58 /* uk.utb */,
+				E6A964842319C51E005B8F58 /* hyph_hu_HU.dic */,
+				E6A964852319C51E005B8F58 /* mni.tbl */,
+				E6A964862319C51E005B8F58 /* ga.tbl */,
+				E6A964872319C51E005B8F58 /* marburg_unicode_defs.cti */,
+				E6A964882319C51E005B8F58 /* hy.tbl */,
+				E6A964892319C51E005B8F58 /* zhcn-g1.ctb */,
+				E6A9648A2319C51E005B8F58 /* tr-g1.ctb */,
+				E6A9648B2319C51E005B8F58 /* sd.tbl */,
+				E6A9648C2319C51E005B8F58 /* en-in-g1.ctb */,
+				E6A9648D2319C51E005B8F58 /* de-chardefs6.cti */,
+				E6A9648E2319C51E005B8F58 /* sk-g1.ctb */,
+				E6A9648F2319C51E005B8F58 /* hyph_da_DK.dic */,
+				E6A964902319C51E005B8F58 /* zh-chn.ctb */,
+				E6A964912319C51E005B8F58 /* sr.tbl */,
+				E6A964922319C51E005B8F58 /* pi.tbl */,
+				E6A964932319C51E005B8F58 /* malayalam.cti */,
+				E6A964942319C51E005B8F58 /* us-table.dis */,
+				E6A964952319C51E005B8F58 /* tsn-za-g1.ctb */,
+				E6A964962319C51E005B8F58 /* gu.tbl */,
+				E6A964972319C51E005B8F58 /* mn-in-g1.utb */,
+				E6A964982319C51E005B8F58 /* no-no-chardefs6.uti */,
+				E6A964992319C51E005B8F58 /* afr-za-g1.ctb */,
+				E6A9649A2319C51E005B8F58 /* zhcn-g2.ctb */,
+				E6A9649B2319C51E005B8F58 /* hr-g1.ctb */,
+				E6A9649C2319C51E005B8F58 /* tr-g2.ctb */,
+				E6A9649D2319C51E005B8F58 /* awa.tbl */,
+				E6A9649E2319C51E005B8F58 /* se-se.ctb */,
+				E6A9649F2319C51E005B8F58 /* hyph_ru.dic */,
+				E6A964A02319C51E005B8F58 /* ko-2006.cti */,
+				E6A964A12319C51E005B8F58 /* ckb-g1.ctb */,
+				E6A964A22319C51E005B8F58 /* en_CA.tbl */,
+				E6A964A32319C51E005B8F58 /* wiskunde-chardefs.cti */,
+				E6A964A42319C51E005B8F58 /* hr-translation.cti */,
+				E6A964A52319C51E005B8F58 /* ru.tbl */,
+				E6A964A62319C51E005B8F58 /* README */,
+				E6A964A72319C51E005B8F58 /* no-no-8dot.utb */,
+				E6A964A82319C51E005B8F58 /* or-in-g1.utb */,
+				E6A964A92319C51E005B8F58 /* hyph_en_US.dic */,
+				E6A964AA2319C51E005B8F58 /* hyph_sv_SE.dic */,
+				E6A964AB2319C51E005B8F58 /* Makefile.am */,
+				E6A964AC2319C51E005B8F58 /* kh-in-g1.utb */,
+				E6A964AD2319C51E005B8F58 /* telugu.cti */,
+				E6A964AE2319C51E005B8F58 /* sk.tbl */,
+				E6A964AF2319C51E005B8F58 /* ro.tbl */,
+				E6A964B02319C51E005B8F58 /* loweredDigits8Dots.uti */,
+				E6A964B12319C51E005B8F58 /* nl-chardefs.uti */,
+				E6A964B22319C51E005B8F58 /* ko-chars.cti */,
+				E6A964B32319C51E005B8F58 /* mt.ctb */,
+				E6A964B42319C51E005B8F58 /* da-dk-g16-lit.ctb */,
+				E6A964B52319C51E005B8F58 /* vi.ctb */,
+				E6A964B62319C51E005B8F58 /* ta.ctb */,
+				E6A964B72319C51E005B8F58 /* de-chardefs8.cti */,
+				E6A964B82319C51E005B8F58 /* en-ueb-g1.ctb */,
+				E6A964B92319C51E005B8F58 /* fi-fi.ctb */,
+				E6A964BA2319C51E005B8F58 /* ca-chardefs.cti */,
+				E6A964BB2319C51E005B8F58 /* sl-si-g1.utb */,
+				E6A964BC2319C51E005B8F58 /* hu-hu-g1_braille_input.cti */,
+				E6A964BD2319C51E005B8F58 /* en-us-g1.ctb */,
+				E6A964BE2319C51E005B8F58 /* is.tbl */,
+				E6A964BF2319C51E005B8F58 /* uni-text.dis */,
+				E6A964C02319C51E005B8F58 /* nemethdefs.cti */,
+				E6A964C12319C51E005B8F58 /* fi.tbl */,
+				E6A964C22319C51E005B8F58 /* kn.tbl */,
+				E6A964C32319C51E005B8F58 /* hu.tbl */,
+				E6A964C42319C51E005B8F58 /* cs-comp8.utb */,
+				E6A964C52319C51E005B8F58 /* bo.ctb */,
+				E6A964C62319C51E005B8F58 /* sl-si-comp8.ctb */,
+				E6A964C72319C51E005B8F58 /* br-in-g1.utb */,
+				E6A964C82319C51E005B8F58 /* hr-comp8.tbl */,
+				E6A964C92319C51E005B8F58 /* controlchars.cti */,
+				E6A964CA2319C51E005B8F58 /* gon.tbl */,
+				E6A964CB2319C51E005B8F58 /* printables.cti */,
+				E6A964CC2319C51E005B8F58 /* cs-g1.ctb */,
+				E6A964CD2319C51E005B8F58 /* bra.tbl */,
+				E6A964CE2319C51E005B8F58 /* en-ueb-g2.ctb */,
+				E6A964CF2319C51E005B8F58 /* de-g0-core.uti */,
+				E6A964D02319C51E005B8F58 /* ethio-g1.ctb */,
+				E6A964D12319C51E005B8F58 /* digits6Dots.uti */,
+				E6A964D22319C51E005B8F58 /* aw-in-g1.utb */,
+				E6A964D32319C51E005B8F58 /* en-us-g2.ctb */,
+				E6A964D42319C51E005B8F58 /* sk-sk.utb */,
+				E6A964D52319C51E005B8F58 /* es.tbl */,
+				E6A964D62319C51E005B8F58 /* unicodedefs.cti */,
+				E6A964D72319C51E005B8F58 /* mn-MN-g2.ctb */,
+				E6A964D82319C51E005B8F58 /* da-dk-g28l.ctb */,
+				E6A964D92319C51E005B8F58 /* mun.tbl */,
+				E6A964DA2319C51E005B8F58 /* it.tbl */,
+				E6A964DB2319C51E005B8F58 /* pt-pt-comp8.ctb */,
+				E6A964DC2319C51E005B8F58 /* kru.ctb */,
+				E6A964DD2319C51E005B8F58 /* eo-g1-x-system.ctb */,
+				E6A964DE2319C51E005B8F58 /* zh-tw.ctb */,
+				E6A964DF2319C51E005B8F58 /* ko-2006-g2.ctb */,
+				E6A964E02319C51E005B8F58 /* pa.tbl */,
+				E6A964E12319C51E005B8F58 /* chr-us-g1.ctb */,
+				E6A964E22319C51E005B8F58 /* en-chess.ctb */,
+				E6A964E32319C51E005B8F58 /* vi-g1.ctb */,
+				E6A964E42319C51E005B8F58 /* en-us-compbrl.uti */,
+				E6A964E52319C51E005B8F58 /* zh_TW.tbl */,
+				E6A964E62319C51E005B8F58 /* sl.tbl */,
+				E6A964E72319C51E005B8F58 /* nl-BE-g0.utb */,
+				E6A964E82319C51E005B8F58 /* de-g1-core.cti */,
+				E6A964E92319C51E005B8F58 /* np-in-g1.utb */,
+				E6A964EA2319C51E005B8F58 /* pl-pl-comp8.ctb */,
+				E6A964EB2319C51E005B8F58 /* et.tbl */,
+				E6A964EC2319C51E005B8F58 /* nl-NL-g0.utb */,
+				E6A964ED2319C51E005B8F58 /* mwr.tbl */,
+				E6A964EE2319C51E005B8F58 /* ko-2006-g1.ctb */,
+				E6A964EF2319C51E005B8F58 /* lt-6dot.tbl */,
+				E6A964F02319C51E005B8F58 /* no-no-generic.dis */,
+				E6A964F12319C51E005B8F58 /* de-de.dis */,
+				E6A964F22319C51E005B8F58 /* en_US.tbl */,
+				E6A964F32319C51E005B8F58 /* Es-Es-G0.utb */,
+				E6A964F42319C51E005B8F58 /* zh_CHN.tbl */,
+				E6A964F52319C51E005B8F58 /* tr.ctb */,
+				E6A964F62319C51E005B8F58 /* lt.ctb */,
+				E6A964F72319C51E005B8F58 /* bh.ctb */,
+				E6A964F82319C51E005B8F58 /* mn-MN-g1.utb */,
+				E6A964F92319C51E005B8F58 /* pt.tbl */,
+				E6A964FA2319C51E005B8F58 /* fa-ir-comp8.ctb */,
+				E6A964FB2319C51E005B8F58 /* dra.tbl */,
+				E6A964FC2319C51E005B8F58 /* ko.cti */,
+				E6A964FD2319C51E005B8F58 /* he.tbl */,
+				E6A964FE2319C51E005B8F58 /* fr-bfu-comp68.cti */,
+				E6A964FF2319C51E005B8F58 /* de-g1-core-patterns.dic */,
+				E6A965002319C51E005B8F58 /* it-it-comp6.utb */,
+				E6A965012319C51E005B8F58 /* ru-litbrl.ctb */,
+				E6A965022319C51E005B8F58 /* zh-hk.ctb */,
+				E6A965032319C51E005B8F58 /* en_CA.ctb */,
+				E6A965042319C51E005B8F58 /* en-chardefs.cti */,
+				E6A965052319C51E005B8F58 /* ckb.tbl */,
+				E6A965062319C51E005B8F58 /* de-accents.cti */,
+				E6A965072319C51E005B8F58 /* hyph_it_IT.dic */,
+				E6A965082319C51E005B8F58 /* is-chardefs8.cti */,
+				E6A965092319C51E005B8F58 /* gez.tbl */,
+				E6A9650A2319C51E005B8F58 /* ru.ctb */,
+				E6A9650B2319C51E005B8F58 /* Pl-Pl-g1.utb */,
+				E6A9650C2319C51E005B8F58 /* mr-in-g1.utb */,
+				E6A9650D2319C51E005B8F58 /* cy-cy-g2.ctb */,
+				E6A9650E2319C51E005B8F58 /* countries.cti */,
+				E6A9650F2319C51E005B8F58 /* tr-g2.tbl */,
+				E6A965102319C51E005B8F58 /* ca-g1.ctb */,
+				E6A965112319C51E005B8F58 /* hr-g1.tbl */,
+				E6A965122319C51E005B8F58 /* boxes.ctb */,
+				E6A965132319C51E005B8F58 /* zh_HK.tbl */,
+				E6A965142319C51E005B8F58 /* devanagari.cti */,
+				E6A965152319C51E005B8F58 /* gu-in-g1.utb */,
+				E6A965162319C51E005B8F58 /* et-g0.utb */,
+				E6A965172319C51E005B8F58 /* da-dk-g08.ctb */,
+				E6A965182319C51E005B8F58 /* ko-g2.ctb */,
+				E6A965192319C51E005B8F58 /* fr-bfu-g2.ctb */,
+				E6A9651A2319C51E005B8F58 /* cs.tbl */,
+				E6A9651B2319C51E005B8F58 /* ukchardefs.cti */,
+				E6A9651C2319C51E005B8F58 /* no-no-g0.utb */,
+				E6A9651D2319C51E005B8F58 /* pt-pt-g1.utb */,
+				E6A9651E2319C51E005B8F58 /* or.tbl */,
+				E6A9651F2319C51E005B8F58 /* en-us-brf.dis */,
+				E6A965202319C51E005B8F58 /* sk-sk-g1.utb */,
+				E6A965212319C51E005B8F58 /* en-us-comp8-ext.utb */,
+				E6A965222319C51E005B8F58 /* latinLetterDef8Dots.uti */,
+				E6A965232319C51E005B8F58 /* unicode-braille.utb */,
+				E6A965242319C51E005B8F58 /* hyph_es_ES.dic */,
+				E6A965252319C51E005B8F58 /* ar-ar-comp8.utb */,
+				E6A965262319C51E005B8F58 /* no-no-generic.ctb */,
+				E6A965272319C51E005B8F58 /* pi.ctb */,
+				E6A965282319C51E005B8F58 /* es-new.dis */,
+				E6A965292319C51E005B8F58 /* digits6DotsPlusDot6.uti */,
+				E6A9652A2319C51E005B8F58 /* cs-letterDef8Dots.uti */,
+				E6A9652B2319C51E005B8F58 /* fr-bfu-comp6.utb */,
+				E6A9652C2319C51E005B8F58 /* hy.ctb */,
+				E6A9652D2319C51E005B8F58 /* hyph_nl_NL.dic */,
+				E6A9652E2319C51E005B8F58 /* en-gb-g1.utb */,
+				E6A9652F2319C51E005B8F58 /* hyph_pl_PL.dic */,
+				E6A965302319C51E005B8F58 /* ru-chardefs.cti */,
+				E6A965312319C51E005B8F58 /* ml.tbl */,
+				E6A965322319C51E005B8F58 /* ko-g1.ctb */,
+				E6A965332319C51E005B8F58 /* de-g2-core-patterns.dic */,
+				E6A965342319C51E005B8F58 /* marburg_single_cell_defs.cti */,
+				E6A965352319C51E005B8F58 /* kok.ctb */,
+				E6A965362319C51E005B8F58 /* bg.tbl */,
+				E6A965372319C51E005B8F58 /* en-ueb-chardefs.uti */,
+				E6A965382319C51E005B8F58 /* ko-g2-rules.cti */,
+				E6A965392319C51E005B8F58 /* kha.tbl */,
+				E6A9653A2319C51E005B8F58 /* sa-in-g1.utb */,
+				E6A9653B2319C51E005B8F58 /* hyph_fr_FR.dic */,
+				E6A9653C2319C51E005B8F58 /* Makefile.in */,
+				E6A9653D2319C51E005B8F58 /* braille-patterns.cti */,
+				E6A9653E2319C51E005B8F58 /* cs-chardefs.cti */,
+				E6A9653F2319C51E005B8F58 /* hu-backtranslate-correction.dis */,
+				E6A965402319C51E005B8F58 /* hyph_cs_CZ.dic */,
+				E6A965412319C51E005B8F58 /* hyph_de_DE.dic */,
+				E6A965422319C51E005B8F58 /* sk-translation.cti */,
+				E6A965432319C51E005B8F58 /* unicode.dis */,
+				E6A965442319C51E005B8F58 /* IPA-unicode-range.uti */,
+				E6A965452319C51E005B8F58 /* fi1.ctb */,
+				E6A965462319C51E005B8F58 /* el.ctb */,
+				E6A965472319C51E005B8F58 /* iu-ca-g1.ctb */,
+				E6A965482319C51E005B8F58 /* no-no-g1.ctb */,
+				E6A965492319C51E005B8F58 /* bengali.cti */,
+				E6A9654A2319C51E005B8F58 /* gd.ctb */,
+				E6A9654B2319C51E005B8F58 /* cy-cy-g1.utb */,
+				E6A9654C2319C51E005B8F58 /* no-no-8dot-fallback-6dot-g0.utb */,
+				E6A9654D2319C51E005B8F58 /* da-dk-g26.ctb */,
+				E6A9654E2319C51E005B8F58 /* ne.tbl */,
+				E6A9654F2319C51E005B8F58 /* sv-1989.ctb */,
+				E6A965502319C51E005B8F58 /* da-dk-g18.ctb */,
+				E6A965512319C51E005B8F58 /* ckb-chardefs.cti */,
+				E6A965522319C51E005B8F58 /* no-no-g3.ctb */,
+				E6A965532319C51E005B8F58 /* pt-pt-g2.ctb */,
+				E6A965542319C51E005B8F58 /* en_GB.tbl */,
+				E6A965552319C51E005B8F58 /* gr-pl-comp8.uti */,
+				E6A965562319C51E005B8F58 /* en-GB-g2.ctb */,
+				E6A965572319C51E005B8F58 /* ml-in-g1.utb */,
+				E6A965582319C51E005B8F58 /* fi2.ctb */,
+				E6A965592319C51E005B8F58 /* ckb-translation.cti */,
+				E6A9655A2319C51E005B8F58 /* hyph_nb_NO.dic */,
+				E6A9655B2319C51E005B8F58 /* no-no-g2.ctb */,
+				E6A9655C2319C51E005B8F58 /* sin.utb */,
+				E6A9655D2319C51E005B8F58 /* no-no-latinLetterDef6Dots_diacritics.uti */,
+				E6A9655E2319C51E005B8F58 /* hyph_nn_NO.dic */,
+				E6A9655F2319C51E005B8F58 /* ru-letters.dis */,
+				E6A965602319C51E005B8F58 /* ca.tbl */,
+				E6A965612319C51E005B8F58 /* en-us-comp6.ctb */,
+				E6A965622319C51E005B8F58 /* sr-g1.ctb */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		E6A963F42319C51E005B8F58 /* tables */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = E6A965632319C51E005B8F58 /* Build configuration list for PBXLegacyTarget "tables" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/abdelrazektarek/Documents/Bonocle-Reader/Liblouis/tables";
+			dependencies = (
+			);
+			name = tables;
+			passBuildSettingsInEnvironment = 1;
+			productName = tables;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		E6A963F02319C51E005B8F58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = E6A963F32319C51E005B8F58 /* Build configuration list for PBXProject "tables" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E6A963EF2319C51E005B8F58;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6A963F42319C51E005B8F58 /* tables */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		E6A963F12319C51E005B8F58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		E6A963F22319C51E005B8F58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		E6A965642319C51E005B8F58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = tables;
+			};
+			name = Debug;
+		};
+		E6A965652319C51E005B8F58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = tables;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6A963F32319C51E005B8F58 /* Build configuration list for PBXProject "tables" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6A963F12319C51E005B8F58 /* Debug */,
+				E6A963F22319C51E005B8F58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6A965632319C51E005B8F58 /* Build configuration list for PBXLegacyTarget "tables" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6A965642319C51E005B8F58 /* Debug */,
+				E6A965652319C51E005B8F58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6A963F02319C51E005B8F58 /* Project object */;
+}

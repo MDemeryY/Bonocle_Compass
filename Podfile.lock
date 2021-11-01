@@ -1,0 +1,16 @@
+PODS:
+  - BonocleKit (0.1.0)
+
+DEPENDENCIES:
+  - BonocleKit (~> 0.1.0)
+
+SPEC REPOS:
+  https://github.com/Bonocle/Specs.git:
+    - BonocleKit
+
+SPEC CHECKSUMS:
+  BonocleKit: a7ed5133a8ed91335526e9ffd520b5b708468e44
+
+PODFILE CHECKSUM: ead9693214d35300f3e9a10f5c1b17856cb52bfd
+
+COCOAPODS: 1.10.1
