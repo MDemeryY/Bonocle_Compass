@@ -23,7 +23,9 @@ extension CompassController: BonocleDelegate {
     func foundDevices(peripherals: [CBPeripheral]) {
     }
     
-    
+    func imuEvent(peripheral: CBPeripheral, X: Int, Y: Int, Z: Int) {
+        self.updateFromBonocle(Z)
+    }
     func buttonEvent(peripheral: CBPeripheral, button: Buttons, event: ButtonEvents) {
         self.peripheral = peripheral
         switch event {

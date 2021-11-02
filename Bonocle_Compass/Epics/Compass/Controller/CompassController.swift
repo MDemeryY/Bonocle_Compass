@@ -69,6 +69,26 @@ extension CompassController {
         configUI()
         createLocationManager()
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2) { [self] in
+               
+                self.updateFromBonocle(180)
+                
+                DispatchQueue.main.asyncAfter(deadline: .now() + 2) { [self] in
+                  
+                    self.updateFromBonocle(40)
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 2) { [self] in
+                        
+                        self.updateFromBonocle(90)
+                        
+                    }
+                }
+            }
+       
+        
+    }
 }
 
 //MARK: - Configure
@@ -120,12 +140,59 @@ extension CompassController {
 // MARK: - Update location information
 extension CompassController {
     
+    
+    func updateFromBonocle(_ zAngle: Int) {
+       
+        // your code here
+        let newHeading = zAngle
+        let headi: Float = -1.0 * Float.pi * Float(newHeading) / 180.0
+        dScaView.resetDirection(CGFloat(headi))
+       let angle = zAngle
+       
+       switch angle {
+       case 0:
+           geographyInfoView.directionLabel.text = "N"
+           currentDirection = "N"
+       case 90:
+           geographyInfoView.directionLabel.text = "E"
+           currentDirection = "E"
+
+       case 180:
+           geographyInfoView.directionLabel.text = "S"
+           currentDirection = "S"
+
+       case 270:
+           geographyInfoView.directionLabel.text = "W"
+           currentDirection = "W"
+
+       default:
+           break
+       }
+       
+       if angle > 0 && angle < 90 {
+           geographyInfoView.directionLabel.text = "NE"
+           currentDirection = "NE"
+
+       }else if angle > 90 && angle < 180 {
+           geographyInfoView.directionLabel.text = "ES"
+           currentDirection = "ES"
+
+       }else if angle > 180 && angle < 270 {
+           geographyInfoView.directionLabel.text = "SW"
+           currentDirection = "SW"
+
+       }else if angle > 270 {
+           geographyInfoView.directionLabel.text = "WN"
+           currentDirection = "WN"
+
+       }
+   }
     private func update(_ newHeading: CLHeading) {
-        
+
         let theHeading: CLLocationDirection = newHeading.magneticHeading > 0 ? newHeading.magneticHeading : newHeading.trueHeading
-        
+
         let angle = Int(theHeading)
-        
+
         switch angle {
         case 0:
             geographyInfoView.directionLabel.text = "N"
@@ -145,7 +212,7 @@ extension CompassController {
         default:
             break
         }
-        
+
         if angle > 0 && angle < 90 {
             geographyInfoView.directionLabel.text = "NE"
             currentDirection = "NE"
@@ -258,16 +325,16 @@ extension CompassController: CLLocationManagerDelegate {
         
         if newHeading.headingAccuracy > 0 {
             
-            let magneticHeading: Float = heading(Float(newHeading.magneticHeading), fromOrirntation: device.orientation)
-            
-            //let trueHeading: Float = heading(Float(newHeading.trueHeading), fromOrirntation: device.orientation)
-         
-            let headi: Float = -1.0 * Float.pi * Float(newHeading.magneticHeading) / 180.0
-            geographyInfoView.angleLabel.text = "\(Int(magneticHeading))"
-            currentAngle = "\(Int(magneticHeading))"
-            dScaView.resetDirection(CGFloat(headi))
-            
-            update(newHeading)
+//            let magneticHeading: Float = heading(Float(newHeading.magneticHeading), fromOrirntation: device.orientation)
+//            
+//            //let trueHeading: Float = heading(Float(newHeading.trueHeading), fromOrirntation: device.orientation)
+//         
+//            let headi: Float = -1.0 * Float.pi * Float(newHeading.magneticHeading) / 180.0
+//            geographyInfoView.angleLabel.text = "\(Int(magneticHeading))"
+//            currentAngle = "\(Int(magneticHeading))"
+//            dScaView.resetDirection(CGFloat(headi))
+//            
+          // update(newHeading)
         }
     }
    
