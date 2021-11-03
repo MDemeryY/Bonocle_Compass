@@ -72,20 +72,20 @@ extension CompassController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-            DispatchQueue.main.asyncAfter(deadline: .now() + 2) { [self] in
-               
-                self.updateFromBonocle(180)
-                
-                DispatchQueue.main.asyncAfter(deadline: .now() + 4) { [self] in
-                  
-                    self.updateFromBonocle(40)
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 3) { [self] in
-                        
-                        self.updateFromBonocle(90)
-                        
-                    }
-                }
-            }
+//            DispatchQueue.main.asyncAfter(deadline: .now() + 2) { [self] in
+//               
+//                self.updateFromBonocle(180)
+//                
+//                DispatchQueue.main.asyncAfter(deadline: .now() + 4) { [self] in
+//                  
+//                    self.updateFromBonocle(40)
+//                    DispatchQueue.main.asyncAfter(deadline: .now() + 3) { [self] in
+//                        
+//                        self.updateFromBonocle(90)
+//                        
+//                    }
+//                }
+//            }
        
         
     }
