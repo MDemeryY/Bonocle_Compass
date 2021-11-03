@@ -76,10 +76,10 @@ extension CompassController {
                
                 self.updateFromBonocle(180)
                 
-                DispatchQueue.main.asyncAfter(deadline: .now() + 2) { [self] in
+                DispatchQueue.main.asyncAfter(deadline: .now() + 4) { [self] in
                   
                     self.updateFromBonocle(40)
-                    DispatchQueue.main.asyncAfter(deadline: .now() + 2) { [self] in
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 3) { [self] in
                         
                         self.updateFromBonocle(90)
                         
@@ -146,9 +146,11 @@ extension CompassController {
         // your code here
         let newHeading = zAngle
         let headi: Float = -1.0 * Float.pi * Float(newHeading) / 180.0
+        let angle = zAngle
+        geographyInfoView.angleLabel.text = "\(Int(angle))"
+        currentAngle = "\(Int(angle))"
         dScaView.resetDirection(CGFloat(headi))
-       let angle = zAngle
-       
+
        switch angle {
        case 0:
            geographyInfoView.directionLabel.text = "N"
@@ -192,7 +194,7 @@ extension CompassController {
         let theHeading: CLLocationDirection = newHeading.magneticHeading > 0 ? newHeading.magneticHeading : newHeading.trueHeading
 
         let angle = Int(theHeading)
-
+        
         switch angle {
         case 0:
             geographyInfoView.directionLabel.text = "N"
