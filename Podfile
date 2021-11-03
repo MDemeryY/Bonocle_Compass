@@ -10,7 +10,7 @@ target 'Bonocle_Compass' do
 
   # Pods for Bonocle_Compass
 
-	pod 'BonocleKit', '~> 0.1.0'
+  pod 'BonocleKit', '~> 0.1.1'
 
 
 end

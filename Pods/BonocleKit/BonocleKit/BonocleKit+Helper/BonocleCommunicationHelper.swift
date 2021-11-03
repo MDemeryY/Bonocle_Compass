@@ -711,12 +711,13 @@ public class BonocleCommunicationHelper:  NSObject, CBCentralManagerDelegate, CB
     }
 
     
-    public func updateAutoScrollSpeed(peripheral: CBPeripheral?, speed: Int){
-        if BLE_Characteristic_Auto_Scroll != nil && peripheral != nil {
-            var data = [speed.toUInt8()]
-            let enableBytes = NSData(bytes: &data, length:data.count)
-            peripheral!.writeValue(enableBytes as Data, for: BLE_Characteristic_Auto_Scroll!, type: CBCharacteristicWriteType.withResponse)
-        }
+    public func updateAutoScrollSpeed(peripheral: CBPeripheral?, speed: Double){
+        self.autoScrollSpeed = speed
+//        if BLE_Characteristic_Auto_Scroll != nil && peripheral != nil {
+//            var data = [speed.toUInt8()]
+//            let enableBytes = NSData(bytes: &data, length:data.count)
+//            peripheral!.writeValue(enableBytes as Data, for: BLE_Characteristic_Auto_Scroll!, type: CBCharacteristicWriteType.withResponse)
+//        }
     }
     
     public func updateIMUConfig(peripheral: CBPeripheral?, res: Int){
