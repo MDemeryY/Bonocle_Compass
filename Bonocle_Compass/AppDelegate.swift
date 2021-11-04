@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         BonocleCommunicationHelper.shared.setOpticalSubscription(peripheral: nil, to: true)
         BonocleCommunicationHelper.shared.setIMUSubscription(peripheral: nil, to: true)
         BonocleCommunicationHelper.shared.updateOpticalSpacing(peripheral: nil, x_spacing: 40, y_spacing: 40)
-        BonocleCommunicationHelper.shared.updateIMUConfig(peripheral: nil, res: 1)
+        BonocleCommunicationHelper.shared.updateIMUConfig(peripheral: nil, res: 10)
         return true
     }
 
