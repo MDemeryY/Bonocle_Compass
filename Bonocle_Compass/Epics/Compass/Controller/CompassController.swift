@@ -17,6 +17,7 @@ class CompassController: UIViewController {
     var peripheral: CBPeripheral? = nil
     var currentDirection:String?
     var currentAngle:String?
+    var isAnglePresented = false
 
     // MARK: - Lazy Loading View
     
@@ -72,21 +73,6 @@ extension CompassController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-//            DispatchQueue.main.asyncAfter(deadline: .now() + 2) { [self] in
-//
-//                self.updateFromBonocle(180)
-//
-//                DispatchQueue.main.asyncAfter(deadline: .now() + 4) { [self] in
-//
-//                    self.updateFromBonocle(40)
-//                    DispatchQueue.main.asyncAfter(deadline: .now() + 3) { [self] in
-//
-//                        self.updateFromBonocle(90)
-//
-//                    }
-//                }
-//            }
-       
         
     }
 }
@@ -188,51 +174,20 @@ extension CompassController {
            currentDirection = "WN"
 
        }
-   }
-    private func update(_ newHeading: CLHeading) {
-
-        let theHeading: CLLocationDirection = newHeading.magneticHeading > 0 ? newHeading.magneticHeading : newHeading.trueHeading
-
-        let angle = Int(theHeading)
         
-        switch angle {
-        case 0:
-            geographyInfoView.directionLabel.text = "N"
-            currentDirection = "N"
-        case 90:
-            geographyInfoView.directionLabel.text = "E"
-            currentDirection = "E"
-
-        case 180:
-            geographyInfoView.directionLabel.text = "S"
-            currentDirection = "S"
-
-        case 270:
-            geographyInfoView.directionLabel.text = "W"
-            currentDirection = "W"
-
-        default:
-            break
+        if isAnglePresented {
+            if currentDirection != nil && self.peripheral != nil {
+                let libObject = Liblouis.translateAndReverse(toBraille: currentAngle ?? "", tableUnicode: "unicode.dis,en-ueb-g1.ctb")
+                updateBonocle(brailleChar: libObject.brailleWord)
+            }
+        } else {
+            if currentDirection != nil && self.peripheral != nil {
+                let libObject = Liblouis.translateAndReverse(toBraille: currentDirection ?? "", tableUnicode: "unicode.dis,en-ueb-g1.ctb")
+                updateBonocle(brailleChar: libObject.brailleWord)
+            }
         }
-
-        if angle > 0 && angle < 90 {
-            geographyInfoView.directionLabel.text = "NE"
-            currentDirection = "NE"
-
-        }else if angle > 90 && angle < 180 {
-            geographyInfoView.directionLabel.text = "ES"
-            currentDirection = "ES"
-
-        }else if angle > 180 && angle < 270 {
-            geographyInfoView.directionLabel.text = "SW"
-            currentDirection = "SW"
-
-        }else if angle > 270 {
-            geographyInfoView.directionLabel.text = "WN"
-            currentDirection = "WN"
-
-        }
-    }
+    
+   }
     
     ///
     /// - Parameters:

@@ -33,20 +33,20 @@ extension CompassController: BonocleDelegate {
         case .singleClick:
             switch button {
             case.sideLeft:
-                if currentDirection != nil {
-                    let libObject = Liblouis.translateAndReverse(toBraille: currentDirection ?? "", tableUnicode: "unicode.dis,en-ueb-g1.ctb")
-                    updateBonocle(brailleChar: libObject.brailleWord)
+                if !isAnglePresented {
+                    isAnglePresented = true
+                    if currentAngle != nil {
+                        let libObject = Liblouis.translateAndReverse(toBraille: currentAngle ?? "", tableUnicode: "unicode.dis,en-ueb-g1.ctb")
+                        updateBonocle(brailleChar: libObject.brailleWord)
+                    }
+                } else {
+                    isAnglePresented = false
+                    if currentDirection != nil {
+                        let libObject = Liblouis.translateAndReverse(toBraille: currentDirection ?? "", tableUnicode: "unicode.dis,en-ueb-g1.ctb")
+                        updateBonocle(brailleChar: libObject.brailleWord)
+                    }
                 }
-            default: break
-            }
-            
-        case .doubleClick:
-            switch button {
-            case.sideLeft:
-                if currentAngle != nil {
-                    let libObject = Liblouis.translateAndReverse(toBraille: currentAngle ?? "", tableUnicode: "unicode.dis,en-ueb-g1.ctb")
-                    updateBonocle(brailleChar: libObject.brailleWord)
-                }
+              
             default: break
             }
         default:
